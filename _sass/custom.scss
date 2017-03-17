@@ -7,32 +7,42 @@ $primary-color: #42a5f5;
 // $link-visited-color: #ab47bc; // Not using due to transition flicker bug with hovering visited links
 
 /*- Base settings -*/
+body
+{
+	font-family : "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	font-weight: inherit;
 
-html {
-	font-size: 20px;
-	@media (min-width: 940px) {
-		font-size: 21px;
+    padding: 0 16px;
+}
+
+#post-page, .post {
+	p, ul, ol {
+		font-family: "Roboto Slab", serif;
 	}
 }
 
-body {
-    padding: 0 16px;
- 
-    font-family : "Lato", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-    font-size   : 20px;
+#post-page {
+	p, ul, ol {
+		font-size: 18px;
+	}
 }
 
 /*- Link -*/
-#post-page a, footer a {
-    transition: color 0.2s ease, border-bottom-color 0.2s ease;
+#post-page a, .post a, footer a {
 	color: $primary-color;
-    border-bottom: solid 1px #DDD;
+    transition: color 0.25s ease, border-bottom-color 0.25s ease;
     &:hover,
 	&:focus {
 		color: darken($primary-color, 15%);
+	}
+}
+
+#post-page a, footer a {
+    border-bottom: solid 1px #DDD;
+    &:hover,
+	&:focus {
         border-bottom-color: lighten($primary-color, 15%);
 	}
-    
 }
 
 /*- Typography for medium and small screen, based on 16px font-size -*/
@@ -54,6 +64,6 @@ p, ul, ol {
 // Full screen menu
 #menu {
   &:after, &:before {
-    transition: all 0.2s ease;
+    transition: all 0.25s ease;
   }
 }

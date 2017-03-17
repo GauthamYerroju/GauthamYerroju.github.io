@@ -215,10 +215,10 @@ blockquote {
   right: -14rem;
   color: #FFFFFF;
   opacity: 0.95;
-  -webkit-transition: all 0.2s ease-out;
-  -moz-transition: all 0.2s ease-out;
-  -ms-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
+  -webkit-transition: all 0.25s ease-out;
+  -moz-transition: all 0.25s ease-out;
+  -ms-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
   z-index: 1;
   padding: 72px 0;
   text-align: center; }
@@ -232,10 +232,10 @@ blockquote {
   left: -14rem;
   color: #FFFFFF;
   opacity: 0.95;
-  -webkit-transition: all 0.2s ease-out;
-  -moz-transition: all 0.2s ease-out;
-  -ms-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
+  -webkit-transition: all 0.25s ease-out;
+  -moz-transition: all 0.25s ease-out;
+  -ms-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
   z-index: 1;
   padding: 72px 0;
   text-align: center; }
@@ -720,24 +720,27 @@ footer {
 /* Literal.Number.Integer.Long */
 /*- Custom style -*/
 /*- Base settings -*/
-html {
-  font-size: 20px; }
-  @media (min-width: 940px) {
-    html {
-      font-size: 21px; } }
-
 body {
-  padding: 0 16px;
-  font-family: "Lato", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  font-size: 20px; }
+  font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: inherit;
+  padding: 0 16px; }
+
+#post-page p, #post-page ul, #post-page ol, .post p, .post ul, .post ol {
+  font-family: "Roboto Slab", serif; }
+
+#post-page p, #post-page ul, #post-page ol {
+  font-size: 18px; }
 
 /*- Link -*/
-#container a, footer a {
-  transition: color 0.2s ease, border-bottom-color 0.2s ease;
+#post-page a, .post a, footer a {
   color: #42a5f5;
+  transition: color 0.25s ease, border-bottom-color 0.25s ease; }
+  #post-page a:hover, #post-page a:focus, .post a:hover, .post a:focus, footer a:hover, footer a:focus {
+    color: #0c80df; }
+
+#post-page a, footer a {
   border-bottom: solid 1px #DDD; }
-  #container a:hover, #container a:focus, footer a:hover, footer a:focus {
-    color: #0c80df;
+  #post-page a:hover, #post-page a:focus, footer a:hover, footer a:focus {
     border-bottom-color: #8bc8f9; }
 
 /*- Typography for medium and small screen, based on 16px font-size -*/
@@ -750,4 +753,4 @@ p, ul, ol {
     line-height: 1.6em;
     /* 24px/18px */ } }
 #menu:after, #menu:before {
-  transition: all 0.2s ease; }
+  transition: all 0.25s ease; }
