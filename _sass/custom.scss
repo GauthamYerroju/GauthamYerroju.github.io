@@ -23,7 +23,7 @@ body {
 }
 
 /*- Link -*/
-#container a, footer a {
+#post-page a, footer a {
     transition: color 0.2s ease, border-bottom-color 0.2s ease;
 	color: $primary-color;
     border-bottom: solid 1px #DDD;
