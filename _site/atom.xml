@@ -4,22 +4,12 @@
  <title>Gautham's Blog</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <id>http://localhost:4000</id>
- <updated>2017-03-16T20:11:58-07:00</updated>
+ <updated>2017-03-16T21:22:09-07:00</updated>
  <author>
    <name>Gautham Yerroju</name>
    <uri>https://gauthamyerroju.github.io</uri>
    <email>gautham.yerroju@gmail.com</email>
  </author>
-
- 
-
- <entry>
-   <title>Code Example</title>
-   <link href="http://localhost:4000/code-example"/>
-   <id>http://localhost:4000/code-example</id>
-   <updated>2017-02-12T00:00:00-08:00</updated>
-   <content type="html">&lt;p&gt;To insert highlight code inside of a post, it’s enough to use some specific tags, has directly described into the &lt;a href=&quot;http://jekyllrb.com/docs/templates/#code-snippet-highlighting&quot;&gt;Jekyll documentation&lt;/a&gt;. In this way the code will be included into a &lt;code class=&quot;highlighter-rouge&quot;&gt;.highlight&lt;/code&gt; CSS class and will be highlight according to the &lt;a href=&quot;https://github.com/mojombo/tpw/blob/master/css/syntax.css&quot;&gt;syntax.scss&lt;/a&gt; file. This is the...</content>
- </entry>
 
  
 
@@ -109,6 +99,16 @@
    <id>http://localhost:4000/more-3d-pics-from-my-leh-trip</id>
    <updated>2011-07-25T07:43:56-07:00</updated>
    <content type="html">&lt;p&gt;Remember my post about &lt;a href=&quot;http://gtmstechblog.wordpress.com/2010/04/06/stereoscopic-vision/&quot;&gt;Stereoscopic 3D&lt;/a&gt;? I have processed more such photos on the occasion of my family trip to &lt;a href=&quot;http://en.wikipedia.org/wiki/Leh&quot;&gt;Leh, Ladakh&lt;/a&gt;. Use your typical red-blue 3D glasses to view:&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;img/post-images/2011-07-25-more-3d-pics-from-my-leh-trip/gtm.jpg&quot; alt=&quot;Le Me&quot; /&gt;&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;img/post-images/2011-07-25-more-3d-pics-from-my-leh-trip/road.jpg&quot; alt=&quot;Road to Thiksey Monastery&quot; /&gt;&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;img/post-images/2011-07-25-more-3d-pics-from-my-leh-trip/thikse-monastery.jpg&quot; alt=&quot;Thikse Monastery&quot; /&gt;&lt;/p&gt; &lt;p&gt;If...</content>
+ </entry>
+
+ 
+
+ <entry>
+   <title>Windows Live Writer</title>
+   <link href="http://localhost:4000/windows-live-writer"/>
+   <id>http://localhost:4000/windows-live-writer</id>
+   <updated>2011-07-23T07:10:00-07:00</updated>
+   <content type="html">&lt;p&gt;I haven’t been blogging much, have I? I have missed a lot of wonderful posts I could have made, like reviews of my new 22 inch LCD monitor, my Logitech MX-518 gaming mouse, my new desk (well, modified the old one), my Sennheiser HD201 circumaural headphones, my wonderful phone &lt;a...</content>
  </entry>
 
  
