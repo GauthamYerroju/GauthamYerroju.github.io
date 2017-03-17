@@ -1,3 +1,59 @@
 /*- Custom style -*/
 
 // -- Put custom style under this point -- //
+
+// Custom vars
+$primary-color: #42a5f5;
+// $link-visited-color: #ab47bc; // Not using due to transition flicker bug with hovering visited links
+
+/*- Base settings -*/
+
+html {
+	font-size: 20px;
+	@media (min-width: 940px) {
+		font-size: 21px;
+	}
+}
+
+body {
+    padding: 0 16px;
+ 
+    font-family : "Lato", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size   : 20px;
+}
+
+/*- Link -*/
+#container a, footer a {
+    transition: color 0.2s ease, border-bottom-color 0.2s ease;
+	color: $primary-color;
+    border-bottom: solid 1px #DDD;
+    &:hover,
+	&:focus {
+		color: darken($primary-color, 15%);
+        border-bottom-color: lighten($primary-color, 15%);
+	}
+    
+}
+
+/*- Typography for medium and small screen, based on 16px font-size -*/
+
+p, ul, ol {
+	line-height: 1.6em;
+}
+
+/*- Typography for big screen, based on 18px font-size -*/
+
+@media (min-width: 940px) { //Breakpoint set to 940px
+
+p, ul, ol {
+	line-height: 1.6em; /* 24px/18px */
+}
+
+}
+
+// Full screen menu
+#menu {
+  &:after, &:before {
+    transition: all 0.2s ease;
+  }
+}

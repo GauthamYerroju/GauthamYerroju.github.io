@@ -215,10 +215,10 @@ blockquote {
   right: -14rem;
   color: #FFFFFF;
   opacity: 0.95;
-  -webkit-transition: all 0.3s ease-in;
-  -moz-transition: all 0.3s ease-in;
-  -ms-transition: all 0.3s ease-in;
-  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
   z-index: 1;
   padding: 72px 0;
   text-align: center; }
@@ -232,10 +232,10 @@ blockquote {
   left: -14rem;
   color: #FFFFFF;
   opacity: 0.95;
-  -webkit-transition: all 0.3s ease-in;
-  -moz-transition: all 0.3s ease-in;
-  -ms-transition: all 0.3s ease-in;
-  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
   z-index: 1;
   padding: 72px 0;
   text-align: center; }
@@ -719,3 +719,35 @@ footer {
 
 /* Literal.Number.Integer.Long */
 /*- Custom style -*/
+/*- Base settings -*/
+html {
+  font-size: 20px; }
+  @media (min-width: 940px) {
+    html {
+      font-size: 21px; } }
+
+body {
+  padding: 0 16px;
+  font-family: "Lato", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 20px; }
+
+/*- Link -*/
+#container a, footer a {
+  transition: color 0.2s ease, border-bottom-color 0.2s ease;
+  color: #42a5f5;
+  border-bottom: solid 1px #DDD; }
+  #container a:hover, #container a:focus, footer a:hover, footer a:focus {
+    color: #0c80df;
+    border-bottom-color: #8bc8f9; }
+
+/*- Typography for medium and small screen, based on 16px font-size -*/
+p, ul, ol {
+  line-height: 1.6em; }
+
+/*- Typography for big screen, based on 18px font-size -*/
+@media (min-width: 940px) {
+  p, ul, ol {
+    line-height: 1.6em;
+    /* 24px/18px */ } }
+#menu:after, #menu:before {
+  transition: all 0.2s ease; }
