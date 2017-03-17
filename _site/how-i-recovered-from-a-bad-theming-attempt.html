@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- Meta -->
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+	<meta name="generator" content="Jekyll">
+
+	<title>How I recovered from a bad theming attempt</title>
+  <meta name="description" content="Gautham's personal blog'">
+
+	<!-- CSS & fonts -->
+	<link rel="stylesheet" href="/css/main.css">
+
+	<!-- RSS -->
+	<link href="/atom.xml" type="application/atom+xml" rel="alternate" title="ATOM Feed" />
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+
+</head>
+
+
+<body>
+	<div id="wrap">
+	  	
+	  	<!-- Navigation -->
+	  	<nav id="nav-left">
+	<div id="nav-list">
+		<a href="//">Home</a>
+
+		<!-- Nav pages -->
+	  
+	    
+	  
+	    
+	      <a href="/about" title="About Monochrome">About Monochrome</a>
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+    
+    <!-- Nav links -->
+	  <a href="https://github.com/thereviewindex/monochrome/archive/master.zip">Download</a>
+<a href="https://github.com/thereviewindex/monochrome">Project on Github</a>
+
+
+	</div>
+  
+  <!-- Nav footer -->
+	
+	  <footer>
+	
+	<span>version 1.0.0</span>
+
+</footer>
+	
+
+</nav>
+
+    
+    <!-- Icon menu -->
+	  <a id="nav-menu-left">
+	  	<div id="menu"></div>
+	  </a>
+
+      <!-- Header -->
+      
+        <header id="header" class="parent justify-spaceBetween">
+  <div class="inner w100 relative">
+    <span class="f-left">  
+      <a href="//">
+        <h1>
+          <span>mono</span>chrome
+        </h1>
+      </a>
+    </span>
+    <span id="nav-links" class="absolute right bottom">
+      <!-- Nav pages -->
+	    
+	      
+	    
+	      
+	        <a href="/about" title="About Monochrome">About Monochrome</a>
+	      
+	    
+	      
+	    
+	      
+	    
+	      
+	    
+	      
+	    
+	      
+	    
+	      
+	    
+	      
+	    
+      
+      <!-- Nav links -->
+	    <a href="https://github.com/thereviewindex/monochrome/archive/master.zip">Download</a>
+<a href="https://github.com/thereviewindex/monochrome">Project on Github</a>
+
+
+    </span>
+  </div>
+</header>
+
+
+
+
+      
+
+    <!-- Main content -->
+	  <div id="container">
+		  
+		<main>
+
+			<article id="post-page">
+	<h2>How I recovered from a bad theming attempt</h2>		
+	<time datetime="2013-06-26T14:22:00-07:00" class="by-line">26 Jun 2013</time>
+	<div class="content">
+
+		<p>If you’ve ever set out to apply some of the gorgeous themes for Windows available at Deviantart, I’m sure you have come across UX theme Patcher. It allows you to apply unsigned themes on Windows (almost practically every good theme out there). <a href="http://browse.deviantart.com/customization/skins/windows7/visualstyle/" title="Visual Styles for Windows 7 at deviantART">deviantART</a> and many other websites have some amazing themes but they can’t be used, because they are not digitally signed by Microsoft. Another reason is that some of these themes modify/replace some system files (explorerframe.dll, shell32.dll, explorer.dll) to theme elements like the back/forward buttons in Windows Explorer, the start button, etc.</p>
+
+<p>Since these themes provide modified system files, we need to make backups of the originals. There are tools to manage themes by changing the system files automatically, and <a href="http://bickelk.deviantart.com/art/Theme-Manager-Windows-7-176165228" title="Theme Manager for WIndows 7 by bicklec at deviantART">Theme Manager</a> is my favourite. I was using it to set a theme, but something must’ve gone wrong. explorer.exe got corrupted somehow and it was not starting on boot. And I had no backup of the original. If Theme Manager made a backup somewhere, I couldn’t find it.</p>
+
+<p>I restarted the PC and hit F8 during boot to bring up the extended boot menu. I thought I’d find “Startup Repair” there, but I was wrong. All I got were a bunch of Safe Modes and a few other options. Luckily, my decision to have an Ubuntu dual boot proved helpful. I booted into Ubuntu and got online for solutions. I kept seeing a command: “sfc /scannow” all over the forums. That command basically check the integrity of all the system files (by verifying their checksums, presumably) and if it finds any corrupt files, it replaces those with the original file stored in the repository (C:\Windows\winsxs).</p>
+
+<p>I booted back into Windows, but there was no explorer again. I logged into my user, hit Ctrl+Alt+Del, and got to task manager. Tried File &gt; Run &gt; explorer without luck (obviously, since explorer was corrupt). I started cmd.exe and ran “sfc /scannow” but alas, I had to have admin privileges to run that command! And I couldn’t, for the life of me, figure out how to start a cmd prompt with admin privileges. All the posts on the internet were describing the GUI way (from the start menu), but I didn’t have a start menu without explorer. Then I somehow found <strong><a href="http://jpassing.com/2007/12/08/launch-elevated-processes-from-the-command-line/">this blog post</a></strong> about a nice utility written in C called elevate. With the help of that utility, I was able to start an elevated cmd prompt, run the “sfc /scannow” command, and reboot into a working Windows session, and all was well again.</p>
+
+<p>So, in summary:</p>
+
+<ul>
+  <li>Always make a backup of all the files that you will change when you theme.</li>
+  <li><a href="http://bickelk.deviantart.com/art/Theme-Manager-Windows-7-176165228" title="Theme Manager for WIndows 7 by bicklec at deviantART">Theme Manager</a> is a great tool for managing Windows themes.</li>
+  <li>Should something go wrong, run “sfc /scannow” with “<a href="http://jpassing.com/2007/12/08/launch-elevated-processes-from-the-command-line/">elevate.exe</a>”</li>
+</ul>
+
+<p>Have fun theming!</p>
+
+		
+	</div>
+</article>
+
+
+
+	  </main>
+		
+		  <!-- Pagination links -->
+      
+
+	  </div>
+	    
+	    <!-- Footer -->
+	    <footer><span>@2017 - Monochrome</span></footer>
+
+
+	    <!-- Script -->
+      <script src="/js/main.js"></script>	
+
+
+	</div>
+</body>
+</html>

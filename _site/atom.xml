@@ -1,35 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>Monochrome | A minimal, responsive Jekyll blog theme</title>
+ <title>Gautham's Blog</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <id>http://localhost:4000</id>
- <updated>2017-03-16T12:51:02-07:00</updated>
+ <updated>2017-03-16T20:11:58-07:00</updated>
  <author>
-   <name>The Review Index</name>
-   <uri>https://thereviewindex.com</uri>
-   <email>dyutibarma@gmail.com</email>
+   <name>Gautham Yerroju</name>
+   <uri>https://gauthamyerroju.github.io</uri>
+   <email>gautham.yerroju@gmail.com</email>
  </author>
-
- 
-
- <entry>
-   <title>TheReviewIndex | Unbiased User Review Summaries | Monochrome</title>
-   <link href="http://localhost:4000/thereviewindex-introduction"/>
-   <id>http://localhost:4000/thereviewindex-introduction</id>
-   <updated>2017-02-18T00:00:00-08:00</updated>
-   <content type="html">&lt;p&gt;The internet is a source of a humongous amount of unstructured content for all sorts of products, in the form of blogs, videos, user and expert reviews, etc. It is almost impossible for anyone to scour all of this disparate data, with contradictory opinions, and thereafter make a correct, or...</content>
- </entry>
-
- 
-
- <entry>
-   <title>Typography Example | Monochrome</title>
-   <link href="http://localhost:4000/typography-example"/>
-   <id>http://localhost:4000/typography-example</id>
-   <updated>2017-02-14T00:00:00-08:00</updated>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;/monochrome/img/img-test.png&quot; alt=&quot;Test&quot; title=&quot;Test&quot; /&gt; Lorem ipsum dolor sit amet, &lt;a href=&quot;http://www.example.com&quot;&gt;consectetur adipisicing&lt;/a&gt; elit. Id, aliquam magni et officiis nemo nihil aliquid placeat alias. Eum voluptates ducimus, nobis ex illum laboriosam quidem corrupti impedit ratione in voluptatum amet beatae facilis temporibus voluptate praesentium voluptatibus! At ab, iusto error amet eveniet...</content>
- </entry>
 
  
 
@@ -44,71 +24,91 @@
  
 
  <entry>
-   <title>This is the eigth test post.</title>
-   <link href="http://localhost:4000/test-post-8"/>
-   <id>http://localhost:4000/test-post-8</id>
-   <updated>2017-02-11T00:00:00-08:00</updated>
-   <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate est optio ut impedit architecto iusto tempore rem, voluptates sed magni nisi corrupti praesentium voluptatum harum expedita temporibus ipsam, odit ad distinctio! Labore cupiditate distinctio facere earum, iste! Reiciendis possimus voluptatum explicabo corporis ab. Ex adipisci laudantium mollitia vel optio deserunt...</content>
+   <title>A Tribute to IrfanView</title>
+   <link href="http://localhost:4000/a-tribute-to-irfanview"/>
+   <id>http://localhost:4000/a-tribute-to-irfanview</id>
+   <updated>2013-06-26T15:22:38-07:00</updated>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;http://www.irfanview.com/&quot; title=&quot;IrfanView Homepage&quot;&gt;IrfanView&lt;/a&gt; is the best daily-use image viewer, period.&lt;/p&gt; &lt;p&gt;OK, maybe not for everyone. But for a power-user, that statement holds true. It’s the best general-purpose image editor I have ever used since a long time (2004), and it managed to keep that title for all these years...</content>
  </entry>
 
  
 
  <entry>
-   <title>This is the seventh test post.</title>
-   <link href="http://localhost:4000/test-post-7"/>
-   <id>http://localhost:4000/test-post-7</id>
-   <updated>2017-02-11T00:00:00-08:00</updated>
-   <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate est optio ut impedit architecto iusto tempore rem, voluptates sed magni nisi corrupti praesentium voluptatum harum expedita temporibus ipsam, odit ad distinctio! Labore cupiditate distinctio facere earum, iste! Reiciendis possimus voluptatum explicabo corporis ab. Ex adipisci laudantium mollitia vel optio deserunt...</content>
+   <title>How I recovered from a bad theming attempt</title>
+   <link href="http://localhost:4000/how-i-recovered-from-a-bad-theming-attempt"/>
+   <id>http://localhost:4000/how-i-recovered-from-a-bad-theming-attempt</id>
+   <updated>2013-06-26T14:22:00-07:00</updated>
+   <content type="html">&lt;p&gt;If you’ve ever set out to apply some of the gorgeous themes for Windows available at Deviantart, I’m sure you have come across UX theme Patcher. It allows you to apply unsigned themes on Windows (almost practically every good theme out there). &lt;a href=&quot;http://browse.deviantart.com/customization/skins/windows7/visualstyle/&quot; title=&quot;Visual Styles for Windows 7 at...</content>
  </entry>
 
  
 
  <entry>
-   <title>This is the sixth test post.</title>
-   <link href="http://localhost:4000/test-post-6"/>
-   <id>http://localhost:4000/test-post-6</id>
-   <updated>2017-02-11T00:00:00-08:00</updated>
-   <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate est optio ut impedit architecto iusto tempore rem, voluptates sed magni nisi corrupti praesentium voluptatum harum expedita temporibus ipsam, odit ad distinctio! Labore cupiditate distinctio facere earum, iste! Reiciendis possimus voluptatum explicabo corporis ab. Ex adipisci laudantium mollitia vel optio deserunt...</content>
+   <title>The Future of this Blog</title>
+   <link href="http://localhost:4000/the-future-of-this-blog"/>
+   <id>http://localhost:4000/the-future-of-this-blog</id>
+   <updated>2012-10-02T03:25:05-07:00</updated>
+   <content type="html">&lt;p&gt;I haven’t been blogging much lately because, well, I’m pretty lazy. And I haven’t had much free time. More truthfully though, I’ve lost my touch. There were some pretty big life changes, I got a job, for starters. My blogging habits took a pretty hard hit due to that.&lt;/p&gt; &lt;p&gt;I’ve...</content>
  </entry>
 
  
 
  <entry>
-   <title>This is the fifth test post</title>
-   <link href="http://localhost:4000/test-post-5"/>
-   <id>http://localhost:4000/test-post-5</id>
-   <updated>2017-02-11T00:00:00-08:00</updated>
-   <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate est optio ut impedit architecto iusto tempore rem, voluptates sed magni nisi corrupti praesentium voluptatum harum expedita temporibus ipsam, odit ad distinctio! Labore cupiditate distinctio facere earum, iste! Reiciendis possimus voluptatum explicabo corporis ab. Ex adipisci laudantium mollitia vel optio deserunt...</content>
+   <title>Under-used Keyboard Shortcuts for Text Editing</title>
+   <link href="http://localhost:4000/under-used-keyboard-shortcuts-for-text-editing"/>
+   <id>http://localhost:4000/under-used-keyboard-shortcuts-for-text-editing</id>
+   <updated>2011-10-05T10:31:51-07:00</updated>
+   <content type="html">&lt;p&gt;Most people know about the basic windows shortcuts for Cut, Copy and Paste (right?), but there are a few more shortcuts that I consider invaluable when writing text. And I was surprised that most people don’t really use them. &lt;strong&gt;I am talking about the Home and End keys and their...</content>
  </entry>
 
  
 
  <entry>
-   <title>This is the forth test post.</title>
-   <link href="http://localhost:4000/test-post-4"/>
-   <id>http://localhost:4000/test-post-4</id>
-   <updated>2017-02-11T00:00:00-08:00</updated>
-   <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate est optio ut impedit architecto iusto tempore rem, voluptates sed magni nisi corrupti praesentium voluptatum harum expedita temporibus ipsam, odit ad distinctio! Labore cupiditate distinctio facere earum, iste! Reiciendis possimus voluptatum explicabo corporis ab. Ex adipisci laudantium mollitia vel optio deserunt...</content>
+   <title>Tasty Static - the modern day SkyRoads remix</title>
+   <link href="http://localhost:4000/tasty-static-the-modern-day-skyroads-remix"/>
+   <id>http://localhost:4000/tasty-static-the-modern-day-skyroads-remix</id>
+   <updated>2011-08-27T06:01:59-07:00</updated>
+   <content type="html">&lt;p&gt;Fans of &lt;a href=&quot;http://www.bluemoon.ee/history/skyroads/&quot;&gt;BlueMoon Interactive’s DOS game SkyRoads&lt;/a&gt;, rejoice! I found an excellent remake of the classic: &lt;a href=&quot;http://www.tastystatic.com/&quot;&gt;Tasty Static&lt;/a&gt;. The game is &lt;strong&gt;fantastic&lt;/strong&gt;, take my word for it! Or don’t. Just check the &lt;a href=&quot;http://www.tastystatic.com/media.php&quot;&gt;screenshots and the trailer&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;The basic gameplay is the same as SkyRoads, you have to...</content>
  </entry>
 
  
 
  <entry>
-   <title>This is the third test post.</title>
-   <link href="http://localhost:4000/test-post-3"/>
-   <id>http://localhost:4000/test-post-3</id>
-   <updated>2017-02-11T00:00:00-08:00</updated>
-   <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate est optio ut impedit architecto iusto tempore rem, voluptates sed magni nisi corrupti praesentium voluptatum harum expedita temporibus ipsam, odit ad distinctio! Labore cupiditate distinctio facere earum, iste! Reiciendis possimus voluptatum explicabo corporis ab. Ex adipisci laudantium mollitia vel optio deserunt...</content>
+   <title>Samsung Infuse 4G vs HTC Inspire 4G vs iPhone 4</title>
+   <link href="http://localhost:4000/samsung-infuse-4g-vs-htc-inspire-4g-vs-iphone-4"/>
+   <id>http://localhost:4000/samsung-infuse-4g-vs-htc-inspire-4g-vs-iphone-4</id>
+   <updated>2011-08-19T04:55:14-07:00</updated>
+   <content type="html">&lt;p&gt;A friend of mine recently went to the US to pursue his Masters degree, and he has asked me to help him decide between 3 phones:&lt;/p&gt; &lt;p&gt;&lt;a href=&quot;http://www.samsung.com/us/mobile/cell-phones/SGH-I997ZKAATT&quot;&gt;Samsung Infuse 4G&lt;/a&gt;, &lt;a href=&quot;http://www.htc.com/us/products/inspire-att&quot;&gt;HTC Inspire 4G&lt;/a&gt; and &lt;a href=&quot;http://www.apple.com/iphone/design/&quot;&gt;Apple iPhone 4&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;I used the internet to quickly compare the phones and had...</content>
  </entry>
 
  
 
  <entry>
-   <title>This is second test post.</title>
-   <link href="http://localhost:4000/test-post-2"/>
-   <id>http://localhost:4000/test-post-2</id>
-   <updated>2017-02-11T00:00:00-08:00</updated>
-   <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate est optio ut impedit architecto iusto tempore rem, voluptates sed magni nisi corrupti praesentium voluptatum harum expedita temporibus ipsam, odit ad distinctio! Labore cupiditate distinctio facere earum, iste! Reiciendis possimus voluptatum explicabo corporis ab. Ex adipisci laudantium mollitia vel optio deserunt...</content>
+   <title>Firefox 6 Released</title>
+   <link href="http://localhost:4000/firefox-6-released"/>
+   <id>http://localhost:4000/firefox-6-released</id>
+   <updated>2011-08-17T05:23:37-07:00</updated>
+   <content type="html">&lt;p&gt;So what’s the deal with Mozilla? I know they’ve changed to a rapid release cycle, but it doesn’t feel like it was too long ago that version 4 was released. Soon after, version 5 didn’t bring any groundbreaking changes to the table either. Now, they’ve released version 6.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;http://www.mozilla.org/contribute/buttons/110x32bubble_b.png&quot;...</content>
+ </entry>
+
+ 
+
+ <entry>
+   <title>KDE for Windows</title>
+   <link href="http://localhost:4000/kde-for-windows"/>
+   <id>http://localhost:4000/kde-for-windows</id>
+   <updated>2011-08-09T03:15:00-07:00</updated>
+   <content type="html">&lt;p&gt;The computer desktop is an essential part of our computing experience. It is the starting point, the home page, the single point in space-time continuum that we can come back to. That’s all very good. But the Windows desktop looks &lt;em&gt;old&lt;/em&gt;. Despite so many changes and developments in interface technology,...</content>
+ </entry>
+
+ 
+
+ <entry>
+   <title>More 3D pics from my Leh trip</title>
+   <link href="http://localhost:4000/more-3d-pics-from-my-leh-trip"/>
+   <id>http://localhost:4000/more-3d-pics-from-my-leh-trip</id>
+   <updated>2011-07-25T07:43:56-07:00</updated>
+   <content type="html">&lt;p&gt;Remember my post about &lt;a href=&quot;http://gtmstechblog.wordpress.com/2010/04/06/stereoscopic-vision/&quot;&gt;Stereoscopic 3D&lt;/a&gt;? I have processed more such photos on the occasion of my family trip to &lt;a href=&quot;http://en.wikipedia.org/wiki/Leh&quot;&gt;Leh, Ladakh&lt;/a&gt;. Use your typical red-blue 3D glasses to view:&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;img/post-images/2011-07-25-more-3d-pics-from-my-leh-trip/gtm.jpg&quot; alt=&quot;Le Me&quot; /&gt;&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;img/post-images/2011-07-25-more-3d-pics-from-my-leh-trip/road.jpg&quot; alt=&quot;Road to Thiksey Monastery&quot; /&gt;&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;img/post-images/2011-07-25-more-3d-pics-from-my-leh-trip/thikse-monastery.jpg&quot; alt=&quot;Thikse Monastery&quot; /&gt;&lt;/p&gt; &lt;p&gt;If...</content>
  </entry>
 
  
