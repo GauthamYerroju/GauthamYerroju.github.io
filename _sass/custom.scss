@@ -10,7 +10,6 @@ $primary-color: #42a5f5;
 body
 {
 	font-family : "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-	font-weight: inherit;
 
     padding: 0 16px;
 }
@@ -25,6 +24,12 @@ body
 	p, ul, ol {
 		font-size: 18px;
 	}
+}
+
+footer {
+	font-size: 12px;
+	font-family: monospace;
+	color: #7f7f7f;
 }
 
 /*- Link -*/
@@ -43,6 +48,11 @@ body
 	&:focus {
         border-bottom-color: lighten($primary-color, 15%);
 	}
+}
+
+footer a {
+	color: #489ade;
+	font-weight: normal;
 }
 
 /*- Typography for medium and small screen, based on 16px font-size -*/
