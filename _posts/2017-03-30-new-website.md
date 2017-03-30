@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 You are here, which means you are on my new site.
 
