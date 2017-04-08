@@ -57,7 +57,7 @@ footer a {
 
 /*- Typography for medium and small screen, based on 16px font-size -*/
 
-p, ul, ol {
+p, li {
 	line-height: 1.6em;
 }
 
@@ -65,7 +65,7 @@ p, ul, ol {
 
 @media (min-width: 940px) { //Breakpoint set to 940px
 
-p, ul, ol {
+p, li {
 	line-height: 1.6em; /* 24px/18px */
 }
 
