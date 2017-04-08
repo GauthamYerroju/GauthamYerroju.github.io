@@ -33,6 +33,10 @@ footer {
 }
 
 /*- Link -*/
+a {
+	outline : none;
+}
+
 #post-page a, .post a, footer a {
 	color: $primary-color;
     transition: color 0.25s ease, border-bottom-color 0.25s ease;
