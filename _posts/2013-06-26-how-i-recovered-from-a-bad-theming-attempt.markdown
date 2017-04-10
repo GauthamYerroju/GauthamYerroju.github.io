@@ -2,7 +2,7 @@
 last_modified_at: '2017-04-10 05:14 -0700'
 author: Gautham Yerroju
 comments: true
-date: 2017-04-10 05:14 -0700
+date: 2010-01-21 13:34:21+05:30
 layout: post
 link: >-
   https://gtmstechblog.wordpress.com/2013/06/27/how-i-recovered-from-a-bad-theming-attempt/
