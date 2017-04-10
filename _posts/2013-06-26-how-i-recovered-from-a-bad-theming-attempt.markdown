@@ -32,4 +32,4 @@ So, in summary:
   * [Theme Manager](http://bickelk.deviantart.com/art/Theme-Manager-Windows-7-176165228 "Theme Manager for WIndows 7 by bicklec at deviantART") is a great tool for managing Windows themes.
   * Should something go wrong, run “sfc /scannow” with “[elevate.exe](http://jpassing.com/2007/12/08/launch-elevated-processes-from-the-command-line/)”
 
-Have fun theming! Test
+Have fun theming!
