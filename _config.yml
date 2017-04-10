@@ -61,14 +61,14 @@ prose:
       - name: "date"
         field:
           element: "text"
-          help: 'Prose only sets this the first time, doesn't seem to overwrite it after value is set. Check date after making an edit'
+          help: "Prose only sets this the first time, doesn't seem to overwrite it after value is set. Check date after making an edit"
           value: CURRENT_DATETIME
       
       # last_modified_at: 2017-04-09 18:12:00-07:00
       - name: "last_modified_at"
         field:
           element: "text"
-          help: 'Update manually. Prose only sets value the first time, doesn't seem to overwrite it after value is set.'
+          help: "Update manually. Prose only sets value the first time, doesn't seem to overwrite it after value is set."
           value: CURRENT_DATETIME
       
       # categories
