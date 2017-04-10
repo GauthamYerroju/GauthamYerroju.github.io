@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Tags
+title: Categories
 ---
 
 {% comment %}
@@ -14,31 +14,31 @@ The following part extracts all the tags from your posts and sort tags, so that 
 =======================
 {% endcomment %}
 
-{% assign rawtags = "" %}
+{% assign rawcategories = "" %}
 {% for post in site.posts %}
-	{% assign ttags = post.tags | join:'|' | append:'|' %}
-	{% assign rawtags = rawtags | append:ttags %}
+	{% assign tcategories = post.categories | join:'|' | append:'|' %}
+	{% assign rawcategories = rawcategories | append:tcategories %}
 {% endfor %}
-{% assign rawtags = rawtags | split:'|' | sort %}
+{% assign rawcategories = rawcategories | split:'|' | sort %}
 
 {% comment %}
 =======================
-The following part removes dulpicated tags and invalid tags like blank tag.
+The following part removes dulpicated tags and invalid tags like blank category.
 =======================
 {% endcomment %}
 {% assign tags = "" %}
-{% for tag in rawtags %}
-	{% if tag != "" %}
+{% for category in rawcategories %}
+	{% if category != "" %}
 		{% if tags == "" %}
-			{% assign tags = tag | split:'|' %}
+			{% assign tags = category | split:'|' %}
 		{% endif %}
-		{% unless tags contains tag %}
-			{% assign tags = tags | join:'|' | append:'|' | append:tag | split:'|' %}
+		{% unless tags contains category %}
+			{% assign tags = tags | join:'|' | append:'|' | append:category | split:'|' %}
 		{% endunless %}
 	{% endif %}
 {% endfor %}
 
-<h2>Tags</h2>
+<h2>Categories</h2>
 
 {% comment %}
 =======================
@@ -46,20 +46,20 @@ The purpose of this snippet is to list all the tags you have in your site.
 =======================
 {% endcomment %}
 {% if tags.size > 0 %}
-<p><ul class="tags">{% for tag in tags %}<li><a href=#{{ tag | slugify }}>{{ tag }}</a></li>{% endfor %}</ul></p>
+<p><ul class="tags">{% for category in tags %}<li><a href=#{{ category | slugify }}>{{ category }}</a></li>{% endfor %}</ul></p>
 {% endif %}
 
 {% comment %}
 =======================
-The purpose of this snippet is to list all your posts posted with a certain tag.
+The purpose of this snippet is to list all your posts posted with a certain category.
 =======================
 {% endcomment %}
 <div class="content">
-{% for tag in tags %}
-	<h3 id="{{ tag | slugify }}">{{ tag }}</h3>
+{% for category in tags %}
+	<h3 id="{{ category | slugify }}">{{ category }}</h3>
 	<ul class="posts-by-tag">
 	 {% for post in site.posts %}
-		 {% if post.tags contains tag %}
+		 {% if post.categories contains category %}
 		 <li>
 			<span class="post-title-by-tag"><a href="{% if site.baseurl == "/" %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">{%if post.header %}{{ post.header }}{% else %}{{ post.title }}{% endif %}</a></span>
 			<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%-d %B %Y" }}
@@ -67,7 +67,7 @@ The purpose of this snippet is to list all your posts posted with a certain tag.
 				<span> (last update on {{ post.last_modified_at | date: "%-d %B %Y" }})</span>
 				{% endif %}
 			</time>
-			{% if post.tags.size > 0 %}
+			{% if post.categories.size > 0 %}
 			{% endif %}
 		 </li>
 		 {% endif %}
