@@ -63,7 +63,7 @@ prose:
           element: "text"
           label: "Last updated"
           help: "Manually enter current datetime in format: 2017-04-09 18:12:00-07:00"
-          value: 'CURRENT_DATETIME'
+          value: CURRENT_DATETIME
       
       # categories
       - name: "categories"
