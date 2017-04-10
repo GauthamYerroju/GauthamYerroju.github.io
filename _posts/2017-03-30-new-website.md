@@ -1,14 +1,22 @@
 ---
 title: New website
-date: 2017-03-30 14:22:00-07:00
-last_modified_at: 2017-04-09 18:12:00-07:00
+date: {}
+last_modified_at: 'Sun Apr 09 2017 18:12:00 GMT-0700 (PDT)'
 published: true
 categories:
-- Web Development
+  - Web Development
 tags:
-- blog
-- jekyll
-- website
+  - blog
+  - jekyll
+  - website
+Tags:
+  - blog
+  - jekyll
+  - website
+  - workflow
+  - prose.io
+Categories:
+  - Web Development
 ---
 You are here, which means you are on my new site.
 
