@@ -60,9 +60,7 @@ prose:
       # last_modified_at: 2017-04-09 18:12:00-07:00
       - name: "last_modified_at"
         field:
-          element: "text"
-          label: "Last updated"
-          help: "Manually enter current datetime in format: 2017-04-09 18:12:00-07:00"
+          element: "hidden"
           value: CURRENT_DATETIME
       
       # categories
