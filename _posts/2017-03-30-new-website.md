@@ -1,15 +1,13 @@
 ---
-title: How I recovered from a bad theming attempt
+title: New website
 date: 2017-03-30 14:22:00-07:00
 last_modified_at: 2017-04-09 18:12:00-07:00
 published: true
 categories:
-- Customization
-- Theming
+- Web Development
 tags:
-- Theming
-- Windows 7
-- Commandline tool
+- Blog
+- Jekyll
 ---
 You are here, which means you are on my new site.
 
