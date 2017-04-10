@@ -58,19 +58,12 @@ prose:
           label: "Title"
       
       # last_modified_at: 2017-04-09 18:12:00-07:00
-      # - name: "last_modified_at"
-      #   field:
-      #     element: "text"
-      #     label: "Last updated"
-      #     value: CURRENT_DATETIME
       - name: "last_modified_at"
         field:
-          element: button
-          label: Update last modified date
-          help: sets the last_modified_at value to current date time
-          on: CURRENT_DATETIME
-          off: ""
-
+          element: "text"
+          label: "Last updated"
+          help: "Manually enter current datetime in format: 2017-04-09 18:12:00-07:00"
+          value: 'CURRENT_DATETIME'
       
       # categories
       - name: "categories"
