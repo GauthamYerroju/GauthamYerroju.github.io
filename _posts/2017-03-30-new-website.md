@@ -8,7 +8,7 @@ categories:
 tags:
 - blog
 - jekyll
-- web site
+- website
 ---
 You are here, which means you are on my new site.
 
