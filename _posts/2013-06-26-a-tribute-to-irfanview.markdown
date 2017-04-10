@@ -8,12 +8,11 @@ slug: a-tribute-to-irfanview
 title: A Tribute to IrfanView
 wordpress_id: 204
 categories:
-- Customization
 - Review
 tags:
-- Image Viewer
-- Irfanview
-- Image Editor
+- image viewer
+- irfanview
+- image editor
 ---
 
 [IrfanView](http://www.irfanview.com/ "IrfanView Homepage") is the best daily-use image viewer, period.

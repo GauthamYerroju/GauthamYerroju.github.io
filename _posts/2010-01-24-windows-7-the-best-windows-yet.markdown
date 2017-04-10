@@ -9,6 +9,7 @@ title: 'Windows 7: The Best Windows Yet'
 wordpress_id: 22
 categories:
 - Operating Systems
+- Reviews
 tags:
 - Operating System
 - OS

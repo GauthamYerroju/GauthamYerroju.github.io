@@ -10,15 +10,14 @@ wordpress_id: 128
 categories:
 - Phones
 tags:
-- Android
-- Apple
+- android
+- apple
 - comparison
-- Gingerbread
-- Infuse
-- Inspire
-- Samsung
-- Sense
-- TouchWiz
+- gingerbread
+- samsung infuse
+- htc inspire
+- htc sense
+- samsung touchWiz
 - vs
 ---
 

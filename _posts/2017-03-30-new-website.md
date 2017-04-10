@@ -6,8 +6,9 @@ published: true
 categories:
 - Web Development
 tags:
-- Blog
-- Jekyll
+- blog
+- jekyll
+- web site
 ---
 You are here, which means you are on my new site.
 

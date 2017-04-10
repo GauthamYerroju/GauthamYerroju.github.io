@@ -11,12 +11,12 @@ title: 'Xbox 360 Controller for Windows: Review'
 wordpress_id: 15
 categories:
 - Gaming
-- Review
+- Reviews
 tags:
 - controller
 - game pad
 - gamepad
-- Gaming
+- gaming
 - joypad
 - review
 - xbox360

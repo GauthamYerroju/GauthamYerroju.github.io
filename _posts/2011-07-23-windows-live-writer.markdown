@@ -12,6 +12,7 @@ tags:
 - live writer
 - weblog client
 - windows live writer
+- workflow
 ---
 
 I haven’t been blogging much, have I? I have missed a lot of wonderful posts I could have made, like reviews of my new 22 inch LCD monitor, my Logitech MX-518 gaming mouse, my new desk (well, modified the old one), my Sennheiser HD201 circumaural headphones, my wonderful phone [Nokia 5230](http://www.gsmarena.com/nokia_5230-review-427.php), the C6 firmware mod ported for Nokia 5230 ([by 008Rohit from Daily Mobile Forums](http://forum.dailymobile.se/index.php?topic=27688)) which really _really_ improves productivity, how I then lost my phone, got a new [Nokia X2-01](http://www.gsmarena.com/nokia_x2_01-review-563.php) (which sports S40, and is not moddable at all), and a bunch of other things like my new obsession with getting myself an Android phone and why I‘m considering the [Samsung Galaxy Ace](http://www.gsmarena.com/samsung_galaxy_ace_s5830-review-573.php), and so on.

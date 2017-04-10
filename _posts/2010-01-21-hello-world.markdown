@@ -7,6 +7,8 @@ link: https://gtmstechblog.wordpress.com/2010/01/21/hello-world/
 slug: hello-world
 title: Inception
 wordpress_id: 1
+tags:
+- personal
 ---
 
 And thus I extend my existence into the internet! I made this blog so that all my half-baked experiments and experiences are preserved. This will hopefully help me achieve a sense of satisfaction when I work on something, because now, it will at least make it to the blog if nothing else.

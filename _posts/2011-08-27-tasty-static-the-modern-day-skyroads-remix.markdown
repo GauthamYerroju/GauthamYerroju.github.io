@@ -10,15 +10,14 @@ wordpress_id: 137
 categories:
 - Gaming
 tags:
-- BlueMoon
+- BlueMoon Interactive
 - freeware
-- Gaming
-- Interactive
-- Linux
-- Mac
-- OSX
-- SkyRoads
-- Tasty Static
+- gaming
+- linux
+- mac
+- osx
+- skyroads
+- tasty static
 - trailer
 ---
 

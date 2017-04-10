@@ -12,6 +12,7 @@ tags:
 - 3d image
 - red blue glasses
 - stereoscopic 3D
+- personal
 ---
 
 Remember my post about [Stereoscopic 3D](http://gtmstechblog.wordpress.com/2010/04/06/stereoscopic-vision/)? I have processed more such photos on the occasion of my family trip to [Leh, Ladakh](http://en.wikipedia.org/wiki/Leh). Use your typical red-blue 3D glasses to view:

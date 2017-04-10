@@ -7,6 +7,9 @@ link: https://gtmstechblog.wordpress.com/2010/01/21/new-brains-for-my-machine/
 slug: new-brains-for-my-machine
 title: The new brains for my machine
 wordpress_id: 5
+tags:
+- pc build
+- my gear
 ---
 
 On my 18th birthday, I got the best birthday present I ever received: a bank account, with a checkbook, debit card and all. It was a bit intimidating but satisfying all the same. For my 19th birthday, I got the second-best birthday present. I got a new CPU for our home PC.

@@ -7,6 +7,8 @@ link: https://gtmstechblog.wordpress.com/2010/04/06/stereoscopic-3d/
 slug: stereoscopic-3d
 title: Stereoscopic 3D
 wordpress_id: 48
+categories:
+- Articles
 tags:
 - 3d
 - 3d vision

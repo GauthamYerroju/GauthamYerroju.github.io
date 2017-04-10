@@ -10,6 +10,7 @@ wordpress_id: 142
 categories:
 - Coding
 tags:
+- workflow
 - coding
 - keyboard shortcuts
 - productivity
