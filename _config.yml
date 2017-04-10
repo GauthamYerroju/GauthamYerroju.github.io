@@ -67,7 +67,7 @@ prose:
       # published: true
       
       # categories
-      - name: "Categories"
+      - name: "categories"
         field:
           element: "multiselect"
           label: "Categories"
@@ -93,7 +93,7 @@ prose:
                 value: 'Web Development'
 
       # tags
-      - name: "Tags"
+      - name: "tags"
         field:
           element: "multiselect"
           label: "Tags"

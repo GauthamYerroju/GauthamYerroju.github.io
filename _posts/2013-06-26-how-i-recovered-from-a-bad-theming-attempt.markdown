@@ -11,7 +11,8 @@ categories:
 - Customization
 - Theming
 tags:
-- theming "windows 7" command line elevate
+- theming
+- commandline tool
 ---
 
 If you've ever set out to apply some of the gorgeous themes for Windows available at Deviantart, I'm sure you have come across UX theme Patcher. It allows you to apply unsigned themes on Windows (almost practically every good theme out there). [deviantART](http://browse.deviantart.com/customization/skins/windows7/visualstyle/ "Visual Styles for Windows 7 at deviantART") and many other websites have some amazing themes but they can’t be used, because they are not digitally signed by Microsoft. Another reason is that some of these themes modify/replace some system files (explorerframe.dll, shell32.dll, explorer.dll) to theme elements like the back/forward buttons in Windows Explorer, the start button, etc.

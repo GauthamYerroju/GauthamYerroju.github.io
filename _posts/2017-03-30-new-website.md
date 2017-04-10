@@ -1,6 +1,5 @@
 ---
 title: New website
-date: {}
 last_modified_at: 'Sun Apr 09 2017 18:12:00 GMT-0700 (PDT)'
 published: true
 categories:
@@ -9,14 +8,8 @@ tags:
   - blog
   - jekyll
   - website
-Tags:
-  - blog
-  - jekyll
-  - website
   - workflow
   - prose.io
-Categories:
-  - Web Development
 ---
 You are here, which means you are on my new site.
 
