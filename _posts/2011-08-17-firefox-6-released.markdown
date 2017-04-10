@@ -1,7 +1,7 @@
 ---
 author: Gautham Yerroju
 comments: true
-date: 2011-08-17 12:23:37+00:00
+date: 2011-08-17 12:23:37+05:30
 layout: post
 link: https://gtmstechblog.wordpress.com/2011/08/17/firefox-6-released/
 slug: firefox-6-released

@@ -1,7 +1,7 @@
 ---
 author: Gautham Yerroju
 comments: true
-date: 2010-04-06 12:58:19+00:00
+date: 2010-04-06 12:58:19+05:30
 layout: post
 link: https://gtmstechblog.wordpress.com/2010/04/06/stereoscopic-3d/
 slug: stereoscopic-3d

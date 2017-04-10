@@ -1,7 +1,7 @@
 ---
 author: Gautham Yerroju
 comments: true
-date: 2011-07-23 14:10:00+00:00
+date: 2011-07-23 14:10:00+05:30
 layout: post
 link: https://gtmstechblog.wordpress.com/2011/07/23/windows-live-writer/
 slug: windows-live-writer

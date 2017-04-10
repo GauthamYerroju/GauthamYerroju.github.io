@@ -1,7 +1,7 @@
 ---
 author: Gautham Yerroju
 comments: true
-date: 2013-06-26 22:22:38+00:00
+date: 2013-06-26 22:22:38+05:30
 layout: post
 link: https://gtmstechblog.wordpress.com/2013/06/27/a-tribute-to-irfanview/
 slug: a-tribute-to-irfanview
@@ -9,8 +9,11 @@ title: A Tribute to IrfanView
 wordpress_id: 204
 categories:
 - Customization
+- Review
 tags:
-- '"image viewer" irfanview "image editor"'
+- Image Viewer
+- Irfanview
+- Image Editor
 ---
 
 [IrfanView](http://www.irfanview.com/ "IrfanView Homepage") is the best daily-use image viewer, period.

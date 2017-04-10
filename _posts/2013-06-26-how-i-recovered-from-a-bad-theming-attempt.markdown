@@ -1,7 +1,7 @@
 ---
 author: Gautham Yerroju
 comments: true
-date: 2013-06-26 21:22:00+00:00
+date: 2013-06-26 21:22:00+05:30
 layout: post
 link: https://gtmstechblog.wordpress.com/2013/06/27/how-i-recovered-from-a-bad-theming-attempt/
 slug: how-i-recovered-from-a-bad-theming-attempt

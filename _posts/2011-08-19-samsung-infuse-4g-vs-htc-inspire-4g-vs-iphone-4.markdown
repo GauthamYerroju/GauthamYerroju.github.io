@@ -1,7 +1,7 @@
 ---
 author: Gautham Yerroju
 comments: true
-date: 2011-08-19 11:55:14+00:00
+date: 2011-08-19 11:55:14+05:30
 layout: post
 link: https://gtmstechblog.wordpress.com/2011/08/19/samsung-infuse-4g-vs-htc-inspire-4g-vs-iphone-4/
 slug: samsung-infuse-4g-vs-htc-inspire-4g-vs-iphone-4

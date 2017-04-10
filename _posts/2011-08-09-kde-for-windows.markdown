@@ -1,7 +1,7 @@
 ---
 author: Gautham Yerroju
 comments: true
-date: 2011-08-09 10:15:00+00:00
+date: 2011-08-09 10:15:00+05:30
 layout: post
 link: https://gtmstechblog.wordpress.com/2011/08/09/kde-for-windows/
 slug: kde-for-windows

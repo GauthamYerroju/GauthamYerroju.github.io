@@ -1,7 +1,7 @@
 ---
 author: Gautham Yerroju
 comments: true
-date: 2010-01-21 16:09:27+00:00
+date: 2010-01-21 16:09:27+05:30
 layout: post
 link: https://gtmstechblog.wordpress.com/2010/01/21/new-brains-for-my-machine/
 slug: new-brains-for-my-machine

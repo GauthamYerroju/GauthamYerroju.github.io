@@ -1,7 +1,7 @@
 ---
 author: Gautham Yerroju
 comments: true
-date: 2011-10-05 17:31:51+00:00
+date: 2011-10-05 17:31:51+05:30
 layout: post
 link: https://gtmstechblog.wordpress.com/2011/10/05/under-used-keyboard-shortcuts-for-text-editing/
 slug: under-used-keyboard-shortcuts-for-text-editing

@@ -1,7 +1,7 @@
 ---
 author: Gautham Yerroju
 comments: true
-date: 2011-08-27 13:01:59+00:00
+date: 2011-08-27 13:01:59+05:30
 layout: post
 link: https://gtmstechblog.wordpress.com/2011/08/27/tasty-static-the-modern-day-skyroads-remix/
 slug: tasty-static-the-modern-day-skyroads-remix

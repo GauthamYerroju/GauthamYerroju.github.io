@@ -1,7 +1,7 @@
 ---
 author: Gautham Yerroju
 comments: true
-date: 2010-01-21 13:34:21+00:00
+date: 2010-01-21 13:34:21+05:30
 layout: post
 link: https://gtmstechblog.wordpress.com/2010/01/21/hello-world/
 slug: hello-world

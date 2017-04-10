@@ -1,7 +1,7 @@
 ---
 author: Gautham Yerroju
 comments: true
-date: 2011-07-25 14:43:56+00:00
+date: 2011-07-25 14:43:56+05:30
 layout: post
 link: https://gtmstechblog.wordpress.com/2011/07/25/more-3d-pics-from-my-leh-trip/
 slug: more-3d-pics-from-my-leh-trip

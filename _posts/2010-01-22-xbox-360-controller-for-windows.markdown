@@ -1,7 +1,7 @@
 ---
 author: Gautham Yerroju
 comments: true
-date: 2010-01-22 10:54:21+00:00
+date: 2010-01-22 10:54:21+05:30
 excerpt: 'An account of my thoughts on my brand new Xbox 360 Gamepad for Windows.
   Bottom line: It''s not perfect, but still awesome.'
 layout: post

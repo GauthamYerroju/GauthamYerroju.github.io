@@ -1,7 +1,7 @@
 ---
 author: Gautham Yerroju
 comments: true
-date: 2011-06-18 19:10:55+00:00
+date: 2011-06-18 19:10:55+05:30
 layout: post
 link: https://gtmstechblog.wordpress.com/2011/06/18/an-old-half-coocked-game-in-pyglet-ship-showdown/
 slug: an-old-half-coocked-game-in-pyglet-ship-showdown

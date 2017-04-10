@@ -1,7 +1,7 @@
 ---
 author: Gautham Yerroju
 comments: true
-date: 2010-01-24 12:09:53+00:00
+date: 2010-01-24 12:09:53+05:30
 layout: post
 link: https://gtmstechblog.wordpress.com/2010/01/24/windows-7-the-best-windows-yet/
 slug: windows-7-the-best-windows-yet
