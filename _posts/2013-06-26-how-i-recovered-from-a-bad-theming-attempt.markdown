@@ -1,18 +1,21 @@
 ---
+last_modified_at: '2017-04-10 05:14 -0700'
 author: Gautham Yerroju
 comments: true
-date: 2013-06-26 21:22:00+05:30
+date: {}
 layout: post
-link: https://gtmstechblog.wordpress.com/2013/06/27/how-i-recovered-from-a-bad-theming-attempt/
+link: >-
+  https://gtmstechblog.wordpress.com/2013/06/27/how-i-recovered-from-a-bad-theming-attempt/
 slug: how-i-recovered-from-a-bad-theming-attempt
 title: How I recovered from a bad theming attempt
 wordpress_id: 190
 categories:
-- Customization
-- Theming
+  - Customization
+  - Theming
 tags:
-- theming
-- commandline tool
+  - theming
+  - commandline tool
+published: true
 ---
 
 If you've ever set out to apply some of the gorgeous themes for Windows available at Deviantart, I'm sure you have come across UX theme Patcher. It allows you to apply unsigned themes on Windows (almost practically every good theme out there). [deviantART](http://browse.deviantart.com/customization/skins/windows7/visualstyle/ "Visual Styles for Windows 7 at deviantART") and many other websites have some amazing themes but they can’t be used, because they are not digitally signed by Microsoft. Another reason is that some of these themes modify/replace some system files (explorerframe.dll, shell32.dll, explorer.dll) to theme elements like the back/forward buttons in Windows Explorer, the start button, etc.
@@ -29,4 +32,4 @@ So, in summary:
   * [Theme Manager](http://bickelk.deviantart.com/art/Theme-Manager-Windows-7-176165228 "Theme Manager for WIndows 7 by bicklec at deviantART") is a great tool for managing Windows themes.
   * Should something go wrong, run “sfc /scannow” with “[elevate.exe](http://jpassing.com/2007/12/08/launch-elevated-processes-from-the-command-line/)”
 
-Have fun theming!
+Have fun theming! Test
