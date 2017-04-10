@@ -7,13 +7,12 @@ categories:
 tags:
   - blog
   - jekyll
+  - personal
   - website
   - workflow
   - prose.io
 ---
-You are here, which means you are on my new site.
-
-## Welcome!
+You are here, which means you are on my new site. __Welcome!__
 
 I have been meaning to migrate my blog from Wordpress for so long, the landscape for static site generators has matured to the point of enjoyable usability (with some magic sauce). Finally, I made my decisions after much thought on how I wanted to implement my site, and on a sustainable workflow. If you are interested on how I ended up with this website, read on.
 
