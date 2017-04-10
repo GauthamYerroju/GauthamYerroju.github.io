@@ -2,7 +2,7 @@
 title: Nexus 7 v2 Review
 id: 294
 categories:
-  - Review
+  - Reviews
   - Tablets
 tags:
 ---

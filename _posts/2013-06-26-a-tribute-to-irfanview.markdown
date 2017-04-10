@@ -8,7 +8,7 @@ slug: a-tribute-to-irfanview
 title: A Tribute to IrfanView
 wordpress_id: 204
 categories:
-- Review
+- Reviews
 tags:
 - image viewer
 - irfanview
