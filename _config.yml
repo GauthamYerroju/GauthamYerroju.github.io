@@ -57,10 +57,16 @@ prose:
           element: "text"
           label: "Title"
       
+      # date
+      - name: "date"
+        field:
+          element: "text"
+          value: CURRENT_DATETIME
+      
       # last_modified_at: 2017-04-09 18:12:00-07:00
       - name: "last_modified_at"
         field:
-          element: "hidden"
+          element: "text"
           value: CURRENT_DATETIME
       
       # categories
