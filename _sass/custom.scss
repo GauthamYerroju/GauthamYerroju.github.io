@@ -3,26 +3,20 @@
 // -- Put custom style under this point -- //
 
 // Custom vars
-$primary-color: #42a5f5;
+$primary-color: #0c80df;
+$border-radius: 2px;
 // $link-visited-color: #ab47bc; // Not using due to transition flicker bug with hovering visited links
 
 /*- Base settings -*/
 body
 {
-	font-family : "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-
+	font-family : "Open Sans", sans-serif;
     padding: 0 16px;
 }
 
 #post-page, .post {
 	p, ul, ol {
 		font-family: "Merriweather", serif;
-	}
-}
-
-#post-page {
-	p, ul, ol {		
-//font-size: 18px;
 	}
 }
 
@@ -33,30 +27,111 @@ footer {
 }
 
 /*- Link -*/
-a {
-	outline : none;
-}
-
-#post-page a, .post a, footer a {
-	color: $primary-color;
-    transition: color 0.25s ease, border-bottom-color 0.25s ease;
-    &:hover,
+@mixin link-content($color) {
+	color: $color;
+	text-decoration: none;
+	border-bottom: dashed 1px #898989;
+	transition: color 0.25s ease, border-bottom-color 0.25s ease;
+	&:hover {
+		color: lighten($color, 10%);
+		border-bottom-color: lighten($color, 10%);
+	}
 	&:focus {
-		color: darken($primary-color, 15%);
+		color: $color;
+		border-bottom: none;
 	}
 }
 
-#post-page a, footer a {
-    border-bottom: solid 1px #DDD;
-    &:hover,
-	&:focus {
-        border-bottom-color: lighten($primary-color, 15%);
+// http://blog.teamtreehouse.com/modular-pseudo-elements-sass
+%link-stylized {
+	position: relative;
+
+	&::before {
+		content: "";
+		display: block;
+		width: 100%;
+		bottom: 0;
+		
+		// Used this to put underline below text
+		// https://stackoverflow.com/questions/3032856/is-it-possible-to-set-the-stacking-order-of-pseudo-elements-below-their-parent-e#10822168
+		position: absolute;
+		z-index: -1;
+
+		transform: scale3d(0, 1, 1);
+		transform-origin: 0;
+		transition: transform 0.25s ease;
+	}
+	&:hover::before {
+		transform: scale3d(1, 1, 1);
+	}
+}
+@mixin link-stylized($color: inherit, $underline-color: $text-color) {
+	@extend %link-stylized;
+	color: $color;
+	&::before {
+		height: 0.1em;
+		background-color: $underline-color;
 	}
 }
 
+#nav-links a {
+	padding-left: 0;
+	margin-left: 0.5em;
+	@include link-stylized(inherit, $text-color);
+}
+.post > h2 > a {
+	@include link-stylized($primary-color, $primary-color);
+}
+#post-page > .content a, footer a, .post-title-by-tag > a {
+	@include link-content($primary-color);
+}
 footer a {
-	color: #489ade;
 	font-weight: normal;
+}
+
+/* Tags */
+.tags {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.tags > li {
+	display: inline-block;
+	cursor: pointer;
+	margin: 4px;
+}
+.tags > li > a {
+	padding: 2px 8px;
+	border-radius: $border-radius;
+	background-color: darken($background-color, 5%);
+	border: 1px solid darken($background-color, 10%);
+	transition: background-color 0.25s ease;
+	&:hover {
+		background-color: lighten($primary-color, 50%);
+		color: $primary-color;
+	}
+	
+	color: $text-light-color;
+	font-family : "Open Sans", sans-serif;
+	font-size: 0.9em;
+	font-weight: 400;
+	transition: color 0.25s ease;
+	&::before {
+		content: "#";
+	}
+}
+.post-title-by-tag, .posts-by-tag > li > time {
+	display: inline-block;
+}
+.posts-by-tag > li > time {
+	font-size: 0.9em;
+	margin-left: 4px;
+	color: lighten($text-color, 25%);
+}
+ul.posts-by-tag {
+	margin-top: 0em;
+	margin-bottom: 2em;
+	padding-left: 2em;
 }
 
 /*- Typography for medium and small screen, based on 16px font-size -*/
