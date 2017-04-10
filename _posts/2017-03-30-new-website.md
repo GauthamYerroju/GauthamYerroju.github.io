@@ -53,7 +53,11 @@ Though I wanted to use Hexo, my search for a new webhost lead me to GitHub Pages
 
 ## Workflow
 
-Using SSGs, it is easy enough to build simple workflows. Once we setup the environment and configure a few things, publishing is as easy as running something like: ```$ hexo publish [layout] <filename>``` in [Hexo](https://hexo.io/), for example. This is beside the point though, as I decided to use GitHub Pages anyway.
+Using SSGs, it is easy enough to build simple workflows. Once we setup the environment and configure a few things, publishing is as easy as running something like:
+```shell
+$ hexo publish [layout] <filename>
+```
+in [Hexo](https://hexo.io/), for example. This is beside the point though, as I decided to use GitHub Pages anyway.
 
 As I said before, authoring a new post in a GitHub Pages-hosted Jekyll blog is pretty easy. But I still wanted an Admin panel instead of dealing with Markdown for metadata. Enter Prose.io.
 
@@ -62,7 +66,7 @@ As I said before, authoring a new post in a GitHub Pages-hosted Jekyll blog is p
 [Prose.io](http://prose.io/#about) provides "a beautifully simple content authoring environment for CMS-free websites". It seamlessly integrates with a GitHub account and provides a beautiful and functional web-UI for editing content. As a bonus, it also has "advanced support for Jekyll sites and markdown content". Sounds perfect, right? This is exactly what I needed!
 
 Prose.io has out-of-the-box support for Jekyll sites _and_ GitHub pages, but it goes one step further:__it allows us to customize the editor__. For example, there are many Jekyll themes with fancy options like header images, featured posts and what not. Prose allows us to define a configuration for any metadata, which will show up as UI widgets in the editor. For example, adding the following to the _config.yml file:
-```
+{% highlight yml linenos %}
 prose:
   metadata:
     _posts:
@@ -76,7 +80,7 @@ prose:
               value: "apples"
             - name: "Bananas"
               value: "bananas"
-```
+{% endhighlight %}
 adds a multiselect widget for adding tags to our post.
 
 ## A match made in Heaven
