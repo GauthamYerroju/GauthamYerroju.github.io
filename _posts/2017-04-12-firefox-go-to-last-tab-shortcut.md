@@ -1,7 +1,7 @@
 ---
 date: '2017-04-12 04:53 -0700'
 last_modified_at: '2017-04-12 04:53 -0700'
-published: false
+published: true
 title: 'Firefox: Go to last tab shortcut'
 categories:
   - Customization
