@@ -1,6 +1,6 @@
 ---
 date: '2017-04-12 04:53 -0700'
-last_modified_at: '2017-04-12 04:53 -0700'
+last_modified_at: '2017-04-12 05:31 -0700'
 published: true
 title: 'Firefox: Go to last tab shortcut'
 categories:
@@ -17,6 +17,6 @@ In Firefox (and indeed most web browsers), CTRL + TAB moves us through open tabs
 Navigate to the [about:config](about:config) page, look for the flag __browser.ctrlTab.previews__ and set it to __true__.
 
 Now, CTRL + TAB will have the same behavior as ALT + TAB, complete with previews:
-[Firefox CTRL+TAB previews](img/2017-04-12-firefox-go-to-last-tab-shortcut/tab-previews.png)
+![tab-previews.png]({{site.baseurl}}/img/post-images/2017-04-12-firefox-go-to-last-tab-shortcut/tab-previews.png)
 
 Enjoy!
