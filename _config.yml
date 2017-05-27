@@ -28,6 +28,8 @@ defaults:
     values:
       layout: "post"
 
+exclude: TODO.md
+
 # Plugins
 gems:
   - jekyll-paginate
