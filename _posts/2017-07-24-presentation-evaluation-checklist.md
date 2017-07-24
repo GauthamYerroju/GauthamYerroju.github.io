@@ -7,8 +7,6 @@ tags:
   - tips
   - checklist
 ---
-## The Presentation Evaluation Checklist
-
 During my first two semesters at university, I've had to give more than a handful of presentations. While it was a good learning experience, the more interesting effort was having to evaluate other presentations. We had these checklists handed out to us and we would grade each aspect. Following is that checklist:
 
 Grade each point on a scale of 1 to 5, 5 being the best.
