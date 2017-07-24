@@ -1,7 +1,7 @@
 ---
 date: '2017-07-24 12:07 -0700'
 last_modified_at: '2017-07-24 12:07 -0700'
-published: false
+published: true
 title: Presentation evaluation checklist
 tags:
   - tips
