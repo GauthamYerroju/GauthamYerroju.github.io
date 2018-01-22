@@ -42,6 +42,9 @@ time > span {
 #post-page > .content a, footer a, .post-title-by-tag > a {
 	@include link-content($primary-color);
 }
+a.post-link {
+	@include link-content($primary-color);
+}
 footer a {
 	font-weight: normal;
 }
