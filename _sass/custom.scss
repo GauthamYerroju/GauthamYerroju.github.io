@@ -39,10 +39,7 @@ time > span {
 .post > h2 > a {
 	@include link-stylized($primary-color, $primary-color);
 }
-#post-page > .content a, footer a, .post-title-by-tag > a {
-	@include link-content($primary-color);
-}
-a.post-link {
+#page > .content a, #post-page > .content a, footer a, .post-title-by-tag > a {
 	@include link-content($primary-color);
 }
 footer a {
