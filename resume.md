@@ -3,7 +3,9 @@ layout: page
 title: Résumé
 description: This page contains links to my résumés.
 ---
-<h1>Download my résumés</h1>
+<h1><a href="http://gauthamyerroju.com/downloads/resume/Resume_Gautham_Yerroju_v8.2.pdf">Download my résumé</a></h1>
+
+<!--
 <div class="content">
   <ul>
     <li><a href="http://gauthamyerroju.com/downloads/resume/Resume_Gautham_Yerroju_1_Page.pdf">One-page version</a></li>
@@ -11,3 +13,4 @@ description: This page contains links to my résumés.
     <li><a href="http://gauthamyerroju.com/downloads/resume/Gautham_Yerroju_Resume.pdf">Last old version</a></li>
   </ul>
 </div>
+-->
