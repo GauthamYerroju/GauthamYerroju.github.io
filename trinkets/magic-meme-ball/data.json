@@ -1,0 +1,12 @@
+{
+    "memes": [
+        {
+            "type": "text",
+            "value": "Face your fear, not fear your face"
+        },
+        {
+            "type": "image",
+            "value": "https://memegenerator.net/img/instances/30159211/face-your-fear-not-fear-your-face.jpg"
+        }
+    ]
+}
