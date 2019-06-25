@@ -11,10 +11,6 @@
         .init-hide {
             display: none;
         }
-
-        #share-url {
-            /* width: 100%; */
-        }
     </style>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -38,18 +34,19 @@
         const notes = urlParams.get('notes');
         console.log(discount);
         $(document).ready(function () {
+            $('#create-order-link').attr('href', baseUrl);
             if (payMode) {
                 if ([subtotal, taxAndServiceFee, headCount].some(isNaN)) {
                     alert('Some parameters are not set!')
-                    // window.location.replace(baseUrl)
+                    window.location.replace(baseUrl)
                     return
                 }
 
                 var optionalItems = [
-                    { value: name, selector: "#name" },
-                    { value: restaurant, selector: "#restaurant" },
-                    { value: notes, selector: "#notes" },
-                    { value: discount, selector: "#discount" },
+                    { value: name, selector: '#name' },
+                    { value: restaurant, selector: '#restaurant' },
+                    { value: notes, selector: '#notes' },
+                    { value: discount, selector: '#discount' },
                 ]
                 optionalItems.forEach(function (item) {
                     if (item.value) {
@@ -59,9 +56,9 @@
 
                 $('.show-in-pay-mode').removeClass('init-hide');
                 $('.read-only-in-pay-mode').attr('readonly', true).addClass('form-control-plaintext');
-                $("#subtotal").val(subtotal);
-                $("#tax-and-service-fee").val(taxAndServiceFee);
-                $("#headcount").val(headCount);
+                $('#subtotal').val(subtotal);
+                $('#tax-and-service-fee').val(taxAndServiceFee);
+                $('#headcount').val(headCount);
                 registerPayHandlers();
             } else {
                 $('.show-in-order-mode').removeClass('init-hide');
@@ -79,7 +76,7 @@
             $('#name, #restaurant, #subtotal, #tax-and-service-fee, #discount, #headcount, #notes').on('input', function (ev) {
                 updateShareUrl();
             });
-            $("#share-url").on("click", function () {
+            $('#share-url').on('click', function () {
                 $(this).select();
             });
         }
@@ -143,7 +140,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="/">Create Order</a>
+                    <a class="nav-link" id="create-order-link" href="#">Create Order</a>
                 </li>
             </ul>
         </div>
