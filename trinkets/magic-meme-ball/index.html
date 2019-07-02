@@ -120,7 +120,6 @@
                 }
             }
             currentIndex = randIndex
-            console.log(currentIndex, list[currentIndex])
             return list[currentIndex]
         }
 
@@ -130,6 +129,7 @@
             if (meme.type === "text") markup = getTextMarkup(meme)
             else if (meme.type === "image") markup = getImageMarkup(meme)
             else if (meme.type === "url") markup = getUrlMarkup(meme)
+            else if (meme.type === "url-image") markup = getUrlImageMarkup(meme)
             else markup = getTextMarkup(getDefaultMeme())
             $('#meme-display').empty().append(markup)
         }
@@ -146,11 +146,15 @@
         }
 
         function getImageMarkup(meme) {
-            return $('<img class="image" src="' + meme.value + '"/>')
+            return $('<img class="image" src="/res/img/' + meme.value + '"/>')
         }
 
         function getUrlMarkup(meme) {
             return $('<iframe class="url" src="' + meme.value + '"></iframe>')
+        }
+
+        function getUrlImageMarkup(meme) {
+            return $('<img class="image" src="' + meme.value + '"/>')
         }
 
     </script>

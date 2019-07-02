@@ -5,8 +5,16 @@
             "value": "Face your fear, not fear your face"
         },
         {
-            "type": "image",
+            "type": "url-image",
             "value": "https://memegenerator.net/img/instances/30159211/face-your-fear-not-fear-your-face.jpg"
+        },
+        {
+            "type": "text",
+            "value": "It's OK Emmie, you have a soul"
+        },
+        {
+            "type": "image",
+            "value": "epic-comment-001.png"
         }
     ]
 }
