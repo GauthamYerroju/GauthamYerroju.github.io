@@ -1,12 +1,17 @@
 ---
 layout: default
 ---
-<article id="page">
-	
-    <h1>Trinkets</h1>
-    <ul>
-        <li><a href={{ site.url }}/trinkets/lunch-split>Lunch Split</a></li>
-        <li><a href={{ site.url }}/trinkets/magic-meme-ball>Magic Meme Ball</a></li>
-    </ul>
-  
+<article id="post-page">
+    <div class="content">
+        <h1>Trinkets</h1>
+        <p>Products of a bored mind.</p>
+        <div>
+            <h2><a href={{ site.url }}/trinkets/lunch-split>Lunch Split</a></h2>
+            <p>Front-end for Emmie's <a href="https://gist.github.com/ehe-odoo/e9e4d256050a9dcea5fc68864c4a80d4">lunch_split.py</a>. Has an "order" mode which generates URL for individual orders, and a pay mode when someone visits that URL. All info is encoded as query parameters, so this can run completely on the client-side. One possible caveat is when the parameters exceed the character limit for GET requests which isn't handled, but it's not the end of the world.</p>
+        </div>
+        <div>
+            <h2><a href={{ site.url }}/trinkets/magic-meme-ball>Magic Meme Ball</a></h2>
+            <p>Having a bad day? Here, use this <a href="https://en.wikipedia.org/wiki/Magic_8-Ball">Magic 8-Ball</a> to delight and confuse you! Although most ofthe memes are inside jokes you probably won't get. What fun.</p>
+        </div>
+    </div>
 </article>
