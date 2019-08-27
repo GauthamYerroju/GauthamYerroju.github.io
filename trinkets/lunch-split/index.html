@@ -142,8 +142,7 @@
             const dishPrice = parseFloat($('#dish-price').val()) || 0.0;
             const tipAmount = parseFloat($('#tip-amount').val()) || 0.0;
             const tipPercent = (parseFloat($('#tip-percent').val()) || 0.0) / 100;
-            console.log(extraFeeToSubtotalRatio, dividedDiscount, dishPrice, tipPercent, tipAmount);
-            const price = (dishPrice + tipAmount) * (1.0 + extraFeeToSubtotalRatio + tipPercent) - dividedDiscount;
+            const price = dishPrice * (1.0 + extraFeeToSubtotalRatio + tipPercent) - dividedDiscount + tipAmount;
             return price;
         }
     </script>
@@ -271,7 +270,7 @@
                     </div>
                     <div class="d-none init-hide show-in-pay-mode text-center">
                         <h2 id="iou"></h2>
-                        <div id="formula" class="text-muted">const price = (dishPrice + tipAmount) * (1.0 + extraFeeToSubtotalRatio + tipPercent) - dividedDiscount;</div>
+                        <div id="formula" class="text-muted">const price = dishPrice * (1.0 + extraFeeToSubtotalRatio + tipPercent) - dividedDiscount + tipAmount;</div>
                     </div>
                 </form>
             </div>
