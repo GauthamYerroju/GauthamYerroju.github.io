@@ -40,7 +40,7 @@ Solder the diodes on the back of the PCB, with the black facing the square pad. 
 
 ### Step 3: key switches
 
-Solder the key switches. This PCB supports MX, Alps and Kailh Choc stylw switches. I ordered Gateron Blues to go with these, because most of my boards have silen linears, and I wanted to have some clicky switches in my collection.
+Solder the key switches. This PCB supports MX and Alps style switches, but not Kailh Choc switches. I ordered Gateron Blues to go with these, because most of my boards have silen linears, and I wanted to have some clicky switches in my collection.
 
 ### Step 4: Test/Flash Pro Micro
 
