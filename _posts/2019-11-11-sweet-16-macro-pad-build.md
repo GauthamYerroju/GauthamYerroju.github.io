@@ -48,7 +48,7 @@ Before soldering the Pro Micro, it's a good idea to test that it's not dead. Con
 
 ### Step 5: Solder Pro Micro
 
-Align the Pro Micro on the headers on the bottom of the board with the micro USB port facing outwards, sandwiching it between the two PCBs. Solder the board and remove the excess pins using a flush cutter.
+Align the Pro Micro on the headers on the bottom of the PCB with the micro USB port facing outwards. Note that the micro USB port should be facing outwards, not sandwiched between the Pro Micro and the Sweet 16 PCBs. Solder the board and remove the excess pins using a flush cutter.
 
 ### Step 6: Put on key caps of choice
 
