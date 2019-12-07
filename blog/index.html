@@ -3,8 +3,6 @@ layout: default
 ---
 <!-- Posts -->
 <ul id="posts">
-	<span>{{ paginator | jsonify }}</span>
-	<span>{{ paginator.posts | jsonify }}</span>
 
 	{% for post in paginator.posts %}
 
