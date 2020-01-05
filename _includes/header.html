@@ -3,7 +3,11 @@
     <span class="f-left">
       <a href="{{ site.url }}/">
         <h1>
-          <span>Gautham's Blog</span>
+          {% if page.title %}
+          <span>{{ page.title }}</span>
+          {% else %}
+          <span>Gautham's Website</span>
+          {% endif %}
         </h1>
       </a>
     </span>
