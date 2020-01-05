@@ -1,6 +1,6 @@
 # Site settings
-title: Gautham's Blog
-description: "Gautham Yerroju's personal blog"
+title: Gautham's Website
+description: "Gautham's personal website"
 url: "https://gauthamyerroju.github.io"
 author:
   name: "Gautham Yerroju"
@@ -28,7 +28,8 @@ defaults:
     values:
       layout: "post"
 
-exclude: TODO.md
+exclude:
+  - TODO.md
 
 # Plugins
 gems:
