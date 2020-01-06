@@ -122,8 +122,8 @@ p {
 }
 
 // Landing page stuff
-$hero-font-size: 2em;
-$ticker-height: 0.6;
+$hero-font-size: 2.4em;
+$ticker-height: 0.5;
 $ticker-count: 7;
 $ticker-duration: 1s;
 
@@ -155,16 +155,13 @@ $ticker-duration: 1s;
 	color: $text-light-color;
 	font-size: $hero-font-size;
 	@media (min-width: 640px) {
-		font-size: $hero-font-size * 1.5;
+		font-size: $hero-font-size * 1.4;
 	}
-	@media (min-width: 940px) {
-		font-size: $hero-font-size * 2;
-	}
-	font-weight: bolder;
 }
 
 .hero-highlight {
 	color: $primary-color;
+	font-weight: bolder;
 }
 
 .hero-line-ticker {
@@ -173,7 +170,7 @@ $ticker-duration: 1s;
 }
 
 .hero-line-ticker > div {
-	color: lighten($text-light-color, 25%);
+	color: lighten($text-light-color, 50%);
 	font-size: #{$ticker-height}em;
 	text-align: center;
 	animation: ticker ($ticker-duration * $ticker-count) infinite;
@@ -181,24 +178,28 @@ $ticker-duration: 1s;
 }
 
 .hero-nav {
-	margin-top: 1em;
+	margin-top: 0.5em;
 }
 
 .hero-nav > a {
 	display: block;
-	margin-top: 8px;
-	padding-right: 0.5em;
+	font-size: 1.5rem;
 	@media (min-width: 480px) {
 		display: inline-block;
-	}
-	font-size: 1rem;
-	@media (min-width: 640px) {
-		font-size: 1.5rem;
-	}
-	@media (min-width: 940px) {
-		font-size: 1.6rem;
+		font-size: 1.25rem;
 	}
 	font-weight: initial;
 	text-align: center;
-	@include link-stylized(lighten($text-light-color, 5%), $primary-color);
+	margin-top: 1em;
+	padding-right: 4px;
+	@include link-stylized(lighten($text-light-color, 25%), $primary-color);
+	&:hover,
+	&:focus {
+		color: darken($text-color, 5%);
+	}
+	transition: all 0.25s ease;;
+}
+
+.hero {
+	padding-bottom: 2em;
 }
