@@ -120,3 +120,85 @@ p {
     transition: all 0.25s ease;
   }
 }
+
+// Landing page stuff
+$hero-font-size: 2em;
+$ticker-height: 0.6;
+$ticker-count: 7;
+$ticker-duration: 1s;
+
+@keyframes ticker {
+	$ticker-step: ($ticker-count) * 2;
+	@for $i from 0 through ($ticker-count) * 2 {
+		#{100% / $ticker-step * $i} {
+			$j: ($i - 1) / 2;
+			@if $i % 2 == 0 {
+				$j: $i / 2;
+			}
+			transform: translate3d(0, -($j * 1.5em), 0);
+		}
+	}
+}
+
+.center-vh {
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.off-white-bg {
+	background-color: #FFF5E8;
+}
+
+.hero {
+	color: $text-light-color;
+	font-size: $hero-font-size;
+	@media (min-width: 640px) {
+		font-size: $hero-font-size * 1.5;
+	}
+	@media (min-width: 940px) {
+		font-size: $hero-font-size * 2;
+	}
+	font-weight: bolder;
+}
+
+.hero-highlight {
+	color: $primary-color;
+}
+
+.hero-line-ticker {
+	height: 1.5em * $ticker-height;
+	overflow-y: hidden;
+}
+
+.hero-line-ticker > div {
+	color: lighten($text-light-color, 25%);
+	font-size: #{$ticker-height}em;
+	text-align: center;
+	animation: ticker ($ticker-duration * $ticker-count) infinite;
+	animation-fill-mode: both;
+}
+
+.hero-nav {
+	margin-top: 1em;
+}
+
+.hero-nav > a {
+	display: block;
+	margin-top: 8px;
+	padding-right: 0.5em;
+	@media (min-width: 480px) {
+		display: inline-block;
+	}
+	font-size: 1rem;
+	@media (min-width: 640px) {
+		font-size: 1.5rem;
+	}
+	@media (min-width: 940px) {
+		font-size: 1.6rem;
+	}
+	font-weight: initial;
+	text-align: center;
+	@include link-stylized(lighten($text-light-color, 5%), $primary-color);
+}
