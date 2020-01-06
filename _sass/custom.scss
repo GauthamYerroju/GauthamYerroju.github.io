@@ -125,7 +125,7 @@ p {
 $hero-font-size: 2.4em;
 $ticker-height: 0.5;
 $ticker-count: 7;
-$ticker-duration: 1s;
+$ticker-duration: 2.5s;
 
 @keyframes ticker {
 	$ticker-step: ($ticker-count) * 2;
