@@ -185,9 +185,19 @@ $ticker-duration: 1s;
 	color: lighten($text-light-color, 25%);
 	font-size: $hero-font-size;
 	@media (min-width: 640px) {
-		font-size: $hero-font-size * 1.8;
+		@media (min-height: 360px) {
+			font-size: $hero-font-size * 1.4;
+		}
+		@media (min-height: 480px) {
+			font-size: $hero-font-size * 1.8;
+		}
+		@media (min-height: 640px) {
+			padding-bottom: 1em;
+		}
+		@media (min-height: 960px) {
+			padding-bottom: 2em;
+		}
 	}
-	padding-bottom: 2em;
 }
 
 .hero-line-title {
