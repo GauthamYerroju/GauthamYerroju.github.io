@@ -5,6 +5,7 @@
 // Custom vars
 $primary-color: #0c80df;
 $border-radius: 2px;
+$off-white: #FFF2EA;
 // $link-visited-color: #ab47bc; // Not using due to transition flicker bug with hovering visited links
 
 /*- Base settings -*/
@@ -123,9 +124,16 @@ p {
 
 // Landing page stuff
 $hero-font-size: 2.4em;
+
+$title-delay: 0.5s;
+$title-duration: 0.5s;
+
 $ticker-height: 0.5;
 $ticker-count: 7;
-$ticker-duration: 2.5s;
+
+$ticker-delay: $title-delay + $title-duration + $title-delay + $title-duration;
+$ticker-duration: 1s;
+
 
 @keyframes ticker {
 	$ticker-step: ($ticker-count) * 2;
@@ -135,8 +143,30 @@ $ticker-duration: 2.5s;
 			@if $i % 2 == 0 {
 				$j: $i / 2;
 			}
-			transform: translate3d(0, -($j * 1.5em), 0);
+			transform: translate3d(0, -(($ticker-count - $j) * 1.5em), 0);
 		}
+	}
+}
+
+@keyframes easeup {
+	from {
+		transform: translate3d(0, 1em, 0);
+		opacity: 0;
+	}
+	to {
+		transform: translate3d(0, 0, 0);
+		opacity: 1;
+	}
+}
+
+@keyframes easedown {
+	from {
+		transform: translate3d(0, -(1.5em * $ticker-height), 0);
+		opacity: 0;
+	}
+	to {
+		transform: translate3d(0, 0, 0);
+		opacity: 1;
 	}
 }
 
@@ -148,15 +178,34 @@ $ticker-duration: 2.5s;
 }
 
 .off-white-bg {
-	background-color: #FFFEE8;
+	background-color: $off-white;
 }
 
 .hero {
-	color: $text-light-color;
+	color: lighten($text-light-color, 25%);
 	font-size: $hero-font-size;
 	@media (min-width: 640px) {
-		font-size: $hero-font-size * 1.4;
+		font-size: $hero-font-size * 1.8;
 	}
+	padding-bottom: 2em;
+}
+
+.hero-line-title {
+	user-select: none;
+}
+
+.hero-line-hi {
+	animation-delay: $title-delay;
+	animation-name: easeup; /* TODO: ease up translate not working here */
+	animation-duration: $title-duration;
+	animation-fill-mode: both;
+}
+
+.hero-line-name {
+	animation-delay: $title-delay + $title-duration + $title-delay;
+	animation-name: easeup; /* TODO: ease up translate not working here */
+	animation-duration: $title-duration;
+	animation-fill-mode: both;
 }
 
 .hero-highlight {
@@ -165,20 +214,34 @@ $ticker-duration: 2.5s;
 }
 
 .hero-line-ticker {
+	user-select: none;
 	height: 1.5em * $ticker-height;
 	overflow-y: hidden;
+	position: relative;
+	animation-name: easedown;
+	animation-delay: $ticker-delay;
+	animation-duration: $ticker-duration * 0.8;
+	animation-fill-mode: both;
 }
 
 .hero-line-ticker > div {
 	color: lighten($text-light-color, 50%);
 	font-size: #{$ticker-height}em;
 	text-align: center;
-	animation: ticker ($ticker-duration * $ticker-count) infinite;
+	animation-name: ticker;
+	animation-duration: ($ticker-duration * $ticker-count);
+	animation-iteration-count: infinite;
+	animation-delay: $ticker-duration + $ticker-delay;
 	animation-fill-mode: both;
 }
 
+// TODO: If I want staggered animation, look into: https://css-tricks.com/different-approaches-for-creating-a-staggered-animation
 .hero-nav {
 	margin-top: 0.5em;
+	animation-name: easeup;
+	animation-duration: $ticker-duration;
+	animation-delay: $ticker-delay;
+	animation-fill-mode: both;
 }
 
 .hero-nav > a {
@@ -197,9 +260,5 @@ $ticker-duration: 2.5s;
 	&:focus {
 		color: darken($text-color, 5%);
 	}
-	transition: all 0.25s ease;;
-}
-
-.hero {
-	padding-bottom: 2em;
+	transition: all 0.25s ease;
 }
