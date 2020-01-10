@@ -2,7 +2,7 @@
 date: '2020-01-10 10:46 -0800'
 last_modified_at: '2020-01-10 10:46 -0800'
 published: false
-title: ''
+title: Logging output of long-running scripts
 ---
 ## Logging output of long-running scripts
 
