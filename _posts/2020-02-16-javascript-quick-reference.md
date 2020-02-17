@@ -8,6 +8,9 @@ title: JavaScript Quick Reference
 
 This is a list of some of JavaScript's behavior. A list of things of which I'm not quite sure when someone asks. Like closures, some scope quirks, the "this" keyword, etc.
 
+__Sources:__
+- [CSS-Tricks on Scope and Closure](https://css-tricks.com/javascript-scope-closures)
+
 ## Variable Declarations
 
 ### 1. var
@@ -42,5 +45,5 @@ __Conclusion:__ Default to const. If reassign is necessary, use let. Only use va
 
 ## Scope
 
-Source: [CSS-Tricks on Scope and Closure](https://css-tricks.com/javascript-scope-closures)
+
 
