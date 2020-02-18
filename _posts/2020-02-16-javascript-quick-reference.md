@@ -100,7 +100,7 @@ whoAmI.sayMyName() // prints 'You are Hiesenberg', accessing gth ename variable 
 
 This trick is apparently used to implement private variables in JS.
 
-```
+```javascript
 function foo() {
   let privateVar = 1
   return {
