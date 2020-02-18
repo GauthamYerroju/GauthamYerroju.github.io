@@ -4,8 +4,6 @@ last_modified_at: '2020-02-16 22:00 -0800'
 published: true
 title: JavaScript Quick Reference
 ---
-# JavaScript Quick Reference
-
 This is a list of some of JavaScript's behavior. A list of things of which I'm not quite sure when someone asks. Like closures, some scope quirks, the "this" keyword, etc.
 
 __Sources:__
