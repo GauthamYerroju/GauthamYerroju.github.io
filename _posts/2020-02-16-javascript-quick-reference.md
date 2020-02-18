@@ -10,6 +10,7 @@ This is a list of some of JavaScript's behavior. A list of things of which I'm n
 
 __Sources:__
 - [CSS-Tricks on Scope and Closure](https://css-tricks.com/javascript-scope-closures)
+- [Scope tutorial by Hammad Ahmed on Scotch.io](https://scotch.io/tutorials/understanding-scope-in-javascript)
 
 ## Variable Declarations
 
