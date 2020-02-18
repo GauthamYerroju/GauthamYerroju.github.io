@@ -65,3 +65,46 @@ let heyo = function() {
   console.log('Heyo!')
 }
 ```
+
+## Closures
+
+When I define a function insude another function, the inner function is called a closure. It has access go the parameters and the scope of the outer function. When this inner function is returned, it still has access to the outer function. Weird zombie shite, but that's JS for you.
+
+```
+function outer() {
+  let name = 'Hiesenberg'
+  return function sayMyName() {
+    console.log('You are ' + name);
+  }
+}
+
+let whoAmI = outer()
+// outer finished executing here, but...
+whoAmI.sayMyName() // prints 'You are Hiesenberg', accessing gth ename variable of outer()
+```
+
+This trick is apparently used to implement private variables in JS.
+```
+function foo() {
+  let privateVar = 1
+  return {
+    getVar: function() {
+      return privateVar
+    },
+    setVar: function(value) {
+      privateVar = value
+    }
+  }
+}
+
+let bar = foo()
+bar.getVar() // prints 1
+bar.setVar(2)
+bar.getVar() // prints 2
+```
+
+I still need to find an example of where this is useful, and put it in the context of OO in JS.
+
+## Context and this
+
+TODO
