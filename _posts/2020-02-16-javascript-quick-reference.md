@@ -120,8 +120,3 @@ bar.getVar() // prints 2
 ```
 
 I still need to find an example of where this is useful, and put it in the context of OO in JS.
-
-
-## Context and this
-
-TODO
