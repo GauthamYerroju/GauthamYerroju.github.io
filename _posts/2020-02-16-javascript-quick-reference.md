@@ -18,7 +18,7 @@ __Sources:__
 
 Good old var. Problem is, allows me to redeclare the same variables twice.
 
-```
+```javascript
 var a = 'foo'
 var a = 'bar' // No error thrown and this can be anywhere in the code.
 ```
@@ -27,7 +27,7 @@ var a = 'bar' // No error thrown and this can be anywhere in the code.
 
 Let fixes this problem. Redeclaring the same variable throws an error.
 
-```
+```javascript
 let a = 'foo'
 let a = 'bar' // Oops! Error!
 ```
@@ -36,7 +36,7 @@ let a = 'bar' // Oops! Error!
 
 Same as let, except the variable cannot be reassigned.
 
-```
+```javascript
 const a = {}
 a.first = 'foo' // This is ok
 a = {second: 'bar'} // Oops! Error!
@@ -46,7 +46,7 @@ a = {second: 'bar'} // Oops! Error!
 
 let and const are limited to block scope unlike var.
 
-```
+```javascript
 if (true) {
   let foo = 1
   var bar = 2
@@ -68,7 +68,7 @@ Functions declared later can be called earlier. Functions are essentially hoiste
 
 Note that function hoisting doesn't work when assigning anonymous functions.
 
-```
+```javascript
 yo()    // Works
 heyo()  // Doesn't work
 
@@ -85,7 +85,7 @@ let heyo = function() {
 
 When I define a function insude another function, the inner function is called a closure. It has access go the parameters and the scope of the outer function. When this inner function is returned, it still has access to the outer function. Weird zombie shite, but that's JS for you.
 
-```
+```javascript
 function outer() {
   let name = 'Hiesenberg'
   return function sayMyName() {
