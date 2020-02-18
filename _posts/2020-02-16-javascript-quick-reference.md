@@ -45,5 +45,9 @@ __Conclusion:__ Default to const. If reassign is necessary, use let. Only use va
 
 ## Scope
 
+Global, local and functin scopes work as I would expect.
+### 1. Global
 
+Global is bad, unless I know what I am doing. __Note:__ works differently in NodeJS vs browsers, need to check it out later.
 
+### 2. 
