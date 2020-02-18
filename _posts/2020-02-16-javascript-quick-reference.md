@@ -41,6 +41,20 @@ a.first = 'foo' // This is ok
 a = {second: 'bar'} // Oops! Error!
 ```
 
+### within block scope
+
+let and const are limited to block scope unlike var.
+
+```
+if (true) {
+  let foo = 1
+  var bar = 2
+}
+
+console.log(foo) // Error, foo is limited to the scope of the if block
+console.log(var) // prints 2. Not limited to block scope
+```
+
 __Conclusion:__ Default to const. If reassign is necessary, use let. Only use var in old environments where let/const aren't available.
 
 ## Scope
