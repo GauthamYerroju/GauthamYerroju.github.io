@@ -1,7 +1,7 @@
 ---
 date: '2020-02-16 22:00 -0800'
 last_modified_at: '2020-02-16 22:00 -0800'
-published: false
+published: true
 title: JavaScript Quick Reference
 ---
 # JavaScript Quick Reference
