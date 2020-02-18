@@ -4,7 +4,7 @@ last_modified_at: '2020-02-16 22:00 -0800'
 published: true
 title: JavaScript Quick Reference
 ---
-This is a (updating) list of some of JavaScript's behavior. A list of things of which I'm not quite sure when someone asks. Like closures, some scope quirks, the "this" keyword, etc.
+This is a (updating) list of some of JavaScript's behaviorthat I keep forgetting. Like closures, some scope quirks, the "this" keyword, etc. This is a quick reference I can check when I need to.
 
 __Sources:__
 - [CSS-Tricks on Scope and Closure](https://css-tricks.com/javascript-scope-closures)
@@ -23,7 +23,7 @@ var a = 'bar' // No error thrown and this can be anywhere in the code.
 
 ### 2. let
 
-Let fixes this problem. Redeclaring the same variable throws an error.
+let fixes this problem. Redeclaring the same variable throws an error.
 
 ```javascript
 let a = 'foo'
@@ -40,7 +40,7 @@ a.first = 'foo' // This is ok
 a = {second: 'bar'} // Oops! Error!
 ```
 
-### within block scope
+### Within block scope
 
 let and const are limited to block scope unlike var.
 
@@ -81,7 +81,7 @@ let heyo = function() {
 
 ## Closures
 
-When I define a function insude another function, the inner function is called a closure. It has access go the parameters and the scope of the outer function. When this inner function is returned, it still has access to the outer function. Weird zombie shite, but that's JS for you.
+When I define a function inside another function, the inner function is called a closure. It has access go the parameters and the scope of the outer function. When this inner function is returned, it still has access to the outer function. Weird zombie shite, but that's JS for you.
 
 ```javascript
 function outer() {
@@ -93,7 +93,7 @@ function outer() {
 
 let whoAmI = outer()
 // outer finished executing here, but...
-whoAmI.sayMyName() // prints 'You are Hiesenberg', accessing gth ename variable of outer()
+whoAmI.sayMyName() // prints 'You are Hiesenberg', accessing the "name" variable of outer()
 ```
 
 This trick is apparently used to implement private variables in JS.
