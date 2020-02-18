@@ -45,9 +45,23 @@ __Conclusion:__ Default to const. If reassign is necessary, use let. Only use va
 
 ## Scope
 
-Global, local and functin scopes work as I would expect.
-### 1. Global
+Global, local and function scopes work as I would expect. Just remember function hoisting.
 
-Global is bad, unless I know what I am doing. __Note:__ works differently in NodeJS vs browsers, need to check it out later.
+### Function hoisting
 
-### 2. 
+Functions declared later can be called earlier. Functions are essentially hoisted to to the top and made available in current scope.
+
+Note that function hoisting doesn't work when assigning anonymous functions.
+
+```
+yo()    // Works
+heyo()  // Doesn't work
+
+function yo() {
+  console.log('Yo.')
+}
+
+let heyo = function() {
+  console.log('Heyo!')
+}
+```
