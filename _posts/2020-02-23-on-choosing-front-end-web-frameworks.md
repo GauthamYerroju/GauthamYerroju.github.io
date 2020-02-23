@@ -23,10 +23,12 @@ On the css side, we have practically 1000s of component frameworks (think Bootst
 
 How would I pick frameworks for production-grade projects? This is what I go by:
 
-1. Don't overthink it. We've reached a place where most reputable frameworks hold to best practices. Technically speaking, time spent on splitting hairs between popular frameworks is better invested elsewhere (unless I happen to own that framework or a competing framework).
-2. Pick something that is widely adopted (by reputable companies, or by a huge community), well-documented, and actively developed (specifically, it doesn't have to change too often, but bug and security fixes should be released actively). The main idea is that the more a framework is adopted by competent people, the more shortcomings, workarounds, best practices, etc are revealed, and this informs development of future versions.
-3. Resist the urge to jump to the next shiny framework leveraging a new clever trick. In production, a proven track record is more important than a possible 5% performance improvement in some specific cases.
-4. When do I switch to a different framework?
+  1. Don't overthink it. We've reached a place where most reputable frameworks hold to best practices. Technically speaking, time spent on splitting hairs between popular frameworks is better invested elsewhere (unless I happen to own that framework or a competing framework).
+  2. Pick something that is widely adopted (by reputable companies, or by a huge community), well-documented, and actively developed (specifically, it doesn't have to change too often, but bug and security fixes should be released actively). The main idea is that the more a framework is adopted by competent people, the more shortcomings, workarounds, best practices, etc are revealed, and this informs development of future versions.
+  3. Resist the urge to jump to the next shiny framework leveraging a new clever trick. In production, a proven track record is more important than a possible 5% performance improvement in some specific cases.
+
+When do I switch to a different framework?
+
   - Licencing model of current framework changes and is no longer viable
   - A different framework would significantly reduce onboarding, maintenance or scaling cost
   - A different framework would significantly increase performance (but remember the golden rule with performance optimization: measure where you have a problem and only fix that. Premature optimization is the root of all evil).
