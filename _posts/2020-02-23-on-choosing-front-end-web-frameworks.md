@@ -27,7 +27,7 @@ How would I pick frameworks for production-grade projects? This is what I go by:
   2. Pick something that is widely adopted (by reputable companies, or by a huge community), well-documented, and actively developed (specifically, it doesn't have to change too often, but bug and security fixes should be released actively). The main idea is that the more a framework is adopted by competent people, the more shortcomings, workarounds, best practices, etc are revealed, and this informs development of future versions.
   3. Resist the urge to jump to the next shiny framework leveraging a new clever trick. In production, a proven track record is more important than a possible 5% performance improvement in some specific cases.
 
-When do I switch to a different framework?
+When would I switch to a different framework?
 
   - Licencing model of current framework changes and is no longer viable
   - A different framework would significantly reduce onboarding, maintenance or scaling cost
