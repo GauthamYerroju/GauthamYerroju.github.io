@@ -3,6 +3,13 @@ date: '2020-02-23 12:53 -0800'
 last_modified_at: '2020-02-23 12:53 -0800'
 published: false
 title: On choosing front-end web frameworks
+categories:
+  - Web Development
+tags:
+  - web development
+  - front-end
+  - frameworks
+  - opinion
 ---
 We've come a long way since the early days of web development when I was a kid, when web development just mean knowing HTML, CSS, and some JS. Oh how far we're come.
 
