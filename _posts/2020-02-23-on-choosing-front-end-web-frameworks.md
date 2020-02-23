@@ -1,7 +1,7 @@
 ---
 date: '2020-02-23 12:53 -0800'
 last_modified_at: '2020-02-23 12:53 -0800'
-published: false
+published: true
 title: On choosing front-end web frameworks
 categories:
   - Web Development
