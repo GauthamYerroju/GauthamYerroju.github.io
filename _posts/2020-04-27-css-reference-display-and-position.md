@@ -9,7 +9,7 @@ categories:
 ---
 This is a quick reference for how CSS display and position properties work.
 
-## display
+## Display
 
 Elements are arranged from left to right, top to bottom. Display properties define how elements are treated when being placed in the flow.
 
