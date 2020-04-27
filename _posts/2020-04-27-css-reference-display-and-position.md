@@ -1,7 +1,7 @@
 ---
 date: '2020-04-27 07:00 -0700'
 last_modified_at: '2020-04-27 07:00 -0700'
-published: false
+published: true
 title: 'CSS Reference: Display and Position'
 categories:
   - Coding
