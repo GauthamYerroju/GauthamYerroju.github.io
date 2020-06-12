@@ -3,14 +3,47 @@ layout: default
 ---
 <article id="post-page">
     <div class="content">
+        <h1>Game Development</h1>
+        
+        <h2>RPG Maker Add-ons</h2>
+        <p>Addons for Enterbrain's RPG Maker XP and VX game engines, written in their Ruby-based game engine. This includes small tweaks to various menu systems to complete visual and functional overhauls to menus and battle systems. There are also utilities for sprite management which work outside the game engine. <a href="https://github.com/GauthamYerroju/rpgmaker">Github repository here</a>.</p>
+
+        <h1>Full Stack Web Development</h1>
+
+        <h2>This website (you're on it)</h2>
+        <p>The latest iteration of my website/blog. I focused on simplicity and a server-less setup, with an easy blogging workflow with GitHub pages and Prose.io. Less is more, you know! The styling is my take on a balance between minimalism and delightful visual flare. <a href="{{ site.baseurl }}/blog/new-website">Read about the process on my blog post</a>.</p>
+        
+        <h2>VueJS Gallery</h2>
+        <p>A full-stack web app which works as a great-looking gallery for local media. Beautiful layout, subtle animations, great functionality.</p>
+
+        <h3>Core: NodeJS + SQLite</h3>
+        <ul>
+            <li>Scan folders for media on-demand</li>
+            <li>Auto-generate and cache thumbnails on-demand for images, animated GIFs and videos</li>
+            <li>Use SQLite for persistent storage of scanned metadata</li>
+            <li><a href="https://github.com/GauthamYerroju/bubblegum-core">GitHub Repo here</a>.</li>
+        </ul>
+
+        <h3>Server: NodeJS + ExpressJS</h3>
+        <ul>
+            <li>A web server wrapper around core.</li>
+            <li>Separate from the core, so that the core can be used on its own (like in an Electron app).</li>
+            <li><a href="https://github.com/GauthamYerroju/bubblegum-server">GitHub Repo here</a>.</li>
+        </ul>
+
+        <h3>Client: VueJS + BulmaCSS</h3>
+        <ul>
+            <li>Single-file components with modular CSS and JS</li>
+            <li>VueX to manage application state and Vue Router to reflect current state in URL</li>
+            <li>Uses the Bulma CSS framework, custom performant CSS for effects and animations</li>
+            <li><a href="https://github.com/GauthamYerroju/bubblegum-gallery">GitHub Repo here</a>.</li>
+        </ul>
+
         <h1>Trinkets</h1>
-        <div>
-            <h2>🍱 <a href={{ site.url }}/projects/lunch-split>Lunch Split</a></h2>
-            <p>Front-end for Emmie's <a href="https://gist.github.com/ehe-odoo/e9e4d256050a9dcea5fc68864c4a80d4">lunch_split.py</a>. Defaults to "order" mode which can generate a URL for each new order, and a "pay" mode when someone visits that URL. All info is encoded in the URL, so this can run completely on the client-side. But what happens if the GET character limit is exceeded? It's not handled but it's hardly the end of the world.</p>
-        </div>
-        <div>
-            <h2>🎱 <a href={{ site.url }}/projects/magic-meme-ball>Magic Meme Ball</a></h2>
-            <p>Having a bad day? Here, use this <a href="https://en.wikipedia.org/wiki/Magic_8-Ball">Magic 8-Ball</a> to confuse and delight you! Although most of the memes are inside jokes you probably won't get. What fun.</p>
-        </div>
+        <h2>🍱 <a href={{ site.url }}/projects/lunch-split>Lunch Split</a></h2>
+        <p>Front-end for Emmie's <a href="https://gist.github.com/ehe-odoo/e9e4d256050a9dcea5fc68864c4a80d4">lunch_split.py</a>. Defaults to "order" mode which can generate a URL for each new order, and a "pay" mode when someone visits that URL. All info is encoded in the URL, so this can run completely on the client-side. But what happens if the GET character limit is exceeded? It's not handled but it's hardly the end of the world.</p>
+        
+        <h2>🎱 <a href={{ site.url }}/projects/magic-meme-ball>Magic Meme Ball</a></h2>
+        <p>Having a bad day? Here, use this <a href="https://en.wikipedia.org/wiki/Magic_8-Ball">Magic 8-Ball</a> to confuse and delight you! Although most of the memes are inside jokes you probably won't get. What fun.</p>
     </div>
 </article>
