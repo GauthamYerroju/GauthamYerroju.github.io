@@ -1,7 +1,7 @@
 # Site settings
 title: Gautham's Website
 description: "Gautham's personal website"
-url: "https://gauthamyerroju.github.io"
+url: "https://gauthamyerroju.com"
 author:
   name: "Gautham Yerroju"
   email: "gautham.yerroju@gmail.com"
@@ -21,8 +21,7 @@ paginate_path: /blog/page:num/
 
 # Default values
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
@@ -46,12 +45,11 @@ custom_header: false
 custom_nav_footer: false
 reverse: false
 
-
 # Prose.io configuration
 prose:
-  rooturl: '_posts'
-  siteurl: 'https://www.gauthamyerroju.com/'
-  media: 'img'
+  rooturl: "_posts"
+  siteurl: "https://gauthamyerroju.com/"
+  media: "img"
   metadata:
     _posts:
       # title: New website
@@ -81,24 +79,24 @@ prose:
           label: "Categories"
           alterable: true
           options:
-              - name: 'Articles'
-                value: 'Articles'
-              - name: 'Coding'
-                value: 'Coding'
-              - name: 'Customization'
-                value: 'Customization'
-              - name: 'Gaming'
-                value: 'Gaming'
-              - name: 'Operating Systems'
-                value: 'Operating Systems'
-              - name: 'Phones'
-                value: 'Phones'
-              - name: 'Reviews'
-                value: 'Reviews'
-              - name: 'Theming'
-                value: 'Theming'
-              - name: 'Web Development'
-                value: 'Web Development'
+            - name: "Articles"
+              value: "Articles"
+            - name: "Coding"
+              value: "Coding"
+            - name: "Customization"
+              value: "Customization"
+            - name: "Gaming"
+              value: "Gaming"
+            - name: "Operating Systems"
+              value: "Operating Systems"
+            - name: "Phones"
+              value: "Phones"
+            - name: "Reviews"
+              value: "Reviews"
+            - name: "Theming"
+              value: "Theming"
+            - name: "Web Development"
+              value: "Web Development"
 
       # tags
       - name: "tags"
@@ -107,139 +105,139 @@ prose:
           label: "Tags"
           alterable: true
           options:
-              - name: '3d'
-                value: '3d'
-              - name: '3d image'
-                value: '3d image'
-              - name: '3d vision'
-                value: '3d vision'
-              - name: 'BlueMoon Interactive'
-                value: 'BlueMoon Interactive'
-              - name: 'Desktop'
-                value: 'Desktop'
-              - name: 'Desktop Customization'
-                value: 'Desktop Customization'
-              - name: 'KDE'
-                value: 'KDE'
-              - name: 'KDE for Windows'
-                value: 'KDE for Windows'
-              - name: 'OS'
-                value: 'OS'
-              - name: 'Operating System'
-                value: 'Operating System'
-              - name: 'Se7en'
-                value: 'Se7en'
-              - name: 'Windows'
-                value: 'Windows'
-              - name: 'Windows 7'
-                value: 'Windows 7'
-              - name: 'android'
-                value: 'android'
-              - name: 'apple'
-                value: 'apple'
-              - name: 'blog'
-                value: 'blog'
-              - name: 'blogging client'
-                value: 'blogging client'
-              - name: 'browser'
-                value: 'browser'
-              - name: 'coding'
-                value: 'coding'
-              - name: 'comparison'
-                value: 'comparison'
-              - name: 'controller'
-                value: 'controller'
-              - name: 'firefox'
-                value: 'firefox'
-              - name: 'firefox 6'
-                value: 'firefox 6'
-              - name: 'freeware'
-                value: 'freeware'
-              - name: 'game dev'
-                value: 'game dev'
-              - name: 'game development'
-                value: 'game development'
-              - name: 'game pad'
-                value: 'game pad'
-              - name: 'gamepad'
-                value: 'gamepad'
-              - name: 'gaming'
-                value: 'gaming'
-              - name: 'gingerbread'
-                value: 'gingerbread'
-              - name: 'htc inspire'
-                value: 'htc inspire'
-              - name: 'htc sense'
-                value: 'htc sense'
-              - name: 'image editor'
-                value: 'image editor'
-              - name: 'image viewer'
-                value: 'image viewer'
-              - name: 'irfanview'
-                value: 'irfanview'
-              - name: 'jekyll'
-                value: 'jekyll'
-              - name: 'joypad'
-                value: 'joypad'
-              - name: 'keyboard shortcuts'
-                value: 'keyboard shortcuts'
-              - name: 'linux'
-                value: 'linux'
-              - name: 'live writer'
-                value: 'live writer'
-              - name: 'mac'
-                value: 'mac'
-              - name: 'my gear'
-                value: 'my gear'
-              - name: 'news'
-                value: 'news'
-              - name: 'osx'
-                value: 'osx'
-              - name: 'pc build'
-                value: 'pc build'
-              - name: 'personal'
-                value: 'personal'
-              - name: 'productivity'
-                value: 'productivity'
-              - name: 'pyglet'
-                value: 'pyglet'
-              - name: 'python'
-                value: 'python'
-              - name: 'red blue glasses'
-                value: 'red blue glasses'
-              - name: 'review'
-                value: 'review'
-              - name: 'samsung infuse'
-                value: 'samsung infuse'
-              - name: 'samsung touchWiz'
-                value: 'samsung touchWiz'
-              - name: 'shortcuts'
-                value: 'shortcuts'
-              - name: 'skyroads'
-                value: 'skyroads'
-              - name: 'stereoscopic 3D'
-                value: 'stereoscopic 3D'
-              - name: 'stereoscopic vision'
-                value: 'stereoscopic vision'
-              - name: 'tasty static'
-                value: 'tasty static'
-              - name: 'theming'
-                value: 'theming'
-              - name: 'commandline tool'
-                value: 'commandline tool'
-              - name: 'trailer'
-                value: 'trailer'
-              - name: 'vs'
-                value: 'vs'
-              - name: 'web browser'
-                value: 'web browser'
-              - name: 'weblog client'
-                value: 'weblog client'
-              - name: 'website'
-                value: 'website'
-              - name: 'windows live writer'
-                value: 'windows live writer'
-              - name: 'workflow'
-                value: 'workflow'
-              - name: 'xbox360'
-                value: 'xbox360'
+            - name: "3d"
+              value: "3d"
+            - name: "3d image"
+              value: "3d image"
+            - name: "3d vision"
+              value: "3d vision"
+            - name: "BlueMoon Interactive"
+              value: "BlueMoon Interactive"
+            - name: "Desktop"
+              value: "Desktop"
+            - name: "Desktop Customization"
+              value: "Desktop Customization"
+            - name: "KDE"
+              value: "KDE"
+            - name: "KDE for Windows"
+              value: "KDE for Windows"
+            - name: "OS"
+              value: "OS"
+            - name: "Operating System"
+              value: "Operating System"
+            - name: "Se7en"
+              value: "Se7en"
+            - name: "Windows"
+              value: "Windows"
+            - name: "Windows 7"
+              value: "Windows 7"
+            - name: "android"
+              value: "android"
+            - name: "apple"
+              value: "apple"
+            - name: "blog"
+              value: "blog"
+            - name: "blogging client"
+              value: "blogging client"
+            - name: "browser"
+              value: "browser"
+            - name: "coding"
+              value: "coding"
+            - name: "comparison"
+              value: "comparison"
+            - name: "controller"
+              value: "controller"
+            - name: "firefox"
+              value: "firefox"
+            - name: "firefox 6"
+              value: "firefox 6"
+            - name: "freeware"
+              value: "freeware"
+            - name: "game dev"
+              value: "game dev"
+            - name: "game development"
+              value: "game development"
+            - name: "game pad"
+              value: "game pad"
+            - name: "gamepad"
+              value: "gamepad"
+            - name: "gaming"
+              value: "gaming"
+            - name: "gingerbread"
+              value: "gingerbread"
+            - name: "htc inspire"
+              value: "htc inspire"
+            - name: "htc sense"
+              value: "htc sense"
+            - name: "image editor"
+              value: "image editor"
+            - name: "image viewer"
+              value: "image viewer"
+            - name: "irfanview"
+              value: "irfanview"
+            - name: "jekyll"
+              value: "jekyll"
+            - name: "joypad"
+              value: "joypad"
+            - name: "keyboard shortcuts"
+              value: "keyboard shortcuts"
+            - name: "linux"
+              value: "linux"
+            - name: "live writer"
+              value: "live writer"
+            - name: "mac"
+              value: "mac"
+            - name: "my gear"
+              value: "my gear"
+            - name: "news"
+              value: "news"
+            - name: "osx"
+              value: "osx"
+            - name: "pc build"
+              value: "pc build"
+            - name: "personal"
+              value: "personal"
+            - name: "productivity"
+              value: "productivity"
+            - name: "pyglet"
+              value: "pyglet"
+            - name: "python"
+              value: "python"
+            - name: "red blue glasses"
+              value: "red blue glasses"
+            - name: "review"
+              value: "review"
+            - name: "samsung infuse"
+              value: "samsung infuse"
+            - name: "samsung touchWiz"
+              value: "samsung touchWiz"
+            - name: "shortcuts"
+              value: "shortcuts"
+            - name: "skyroads"
+              value: "skyroads"
+            - name: "stereoscopic 3D"
+              value: "stereoscopic 3D"
+            - name: "stereoscopic vision"
+              value: "stereoscopic vision"
+            - name: "tasty static"
+              value: "tasty static"
+            - name: "theming"
+              value: "theming"
+            - name: "commandline tool"
+              value: "commandline tool"
+            - name: "trailer"
+              value: "trailer"
+            - name: "vs"
+              value: "vs"
+            - name: "web browser"
+              value: "web browser"
+            - name: "weblog client"
+              value: "weblog client"
+            - name: "website"
+              value: "website"
+            - name: "windows live writer"
+              value: "windows live writer"
+            - name: "workflow"
+              value: "workflow"
+            - name: "xbox360"
+              value: "xbox360"
