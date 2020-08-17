@@ -42,16 +42,16 @@ The graphics card was actually a late purchase, a result of extensive research a
 Now, some pics to spice things up.
 
 Close view of the workspace:
-![Close view](img/post-images/2010-01-21-new-brains-for-my-machine/close_view.jpg)
+![Close view](/img/post-images/2010-01-21-new-brains-for-my-machine/close_view.jpg)
 
 The complete setup:
-![Complete setup](img/post-images/2010-01-21-new-brains-for-my-machine/complete_setup.jpg)
+![Complete setup](/img/post-images/2010-01-21-new-brains-for-my-machine/complete_setup.jpg)
 
 The CPU with a simple ambient temperature indicator:
-![Tower](img/post-images/2010-01-21-new-brains-for-my-machine/tower.jpg)
+![Tower](/img/post-images/2010-01-21-new-brains-for-my-machine/tower.jpg)
 
 The right hand's home:
-![Right hand](img/post-images/2010-01-21-new-brains-for-my-machine/right_hand_home.jpg)
+![Right hand](/img/post-images/2010-01-21-new-brains-for-my-machine/right_hand_home.jpg)
 
 It's ergonomic heaven, except for the mouse. It could do with a few inches of height (5, to be precise), but it's good enough for me. All in all, I'm quite happy. I'm able to play Crysis with an average of 40 FPS, Tom Clancy's H.A.W.X at an average of 100 FPS, you get the drift. Recently, I've been trying my hand at Blender, that's another area the graphics card helps.
 

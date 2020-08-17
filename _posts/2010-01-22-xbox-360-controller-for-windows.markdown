@@ -21,7 +21,7 @@ tags:
 - review
 - xbox360
 ---
-![The Xbox 360 Controller](img/post-images/2010-01-22-xbox-360-controller-for-windows/main.jpg)
+![The Xbox 360 Controller](/img/post-images/2010-01-22-xbox-360-controller-for-windows/main.jpg)
 
 I bought it recently (7-Jan-2010), as I [mentioned in my other post](http://gtmstechblog.wordpress.com/2010/01/21/new-brains-for-my-machine/ "The new brains for my machine"). I did some research as I did with my graphics card (though not _that_ much, I really went all out then) and the reviews and reception seemed to be very good. My other choice was the [Saitek Cyborg Rumble Pad](http://www.saitek.com/uk/prod/p3600.htm "Official product page") and I still have a feeling I would've liked it. In the end, I had a choice: if I got the Saitek Cyborg Rumble Pad, I would have a switchable analog/D-pad module. If I got the Xbox 360 controller, I would have the 2.5 mm earphone jack. I decided to go with Saitek Cyborg but when I went to the market, it was nowhere to be found. After much effort, I bought the Xbox 360 controller for a very good deal and saved Rs.450 (about 9 USD).
 
@@ -29,7 +29,7 @@ I followed the instructions and plugged in the gamepad after installing the late
 
 As for complaints, I do have a few more than I hoped. First, the lack of customizability with the default drivers is really disappointing, especially to a tweaker at heart like me. There are [other drivers](http://www.redcl0ud.com/xbcd.html "XBCD - XBox Controller Driver for Windows 98/2000/XP") out there which promise a lot ([_really_ a lot](http://xbcd360guide.50webs.com/ "XBCD 360 Install Guide (outdated)")), but they're not properly compatible with Windows 7 yet, so I held back. Of course, I use the latest free version of Xpadder, so I do have some control over useful aspects like keyboard and mouse mapping and finer aspects like the dead zone settings for the analog sticks and triggers. Next, as much as I like the glowing ring of light, I dislike only a quarter of it glowing. I never connect to Xbox Live and I don't see myself doing it in the near or far future, so I'd rather have the whole ring glowing. With only a quarter glowing, I feel like the poor old LED's gonna pop out sooner than the others (and me being a little obsessive compulsive, the thought of a quarter of light missing is unnerving). Next, the Start button is used to pause majority of games and it's hard to reach. Well, not exactly, it's placed in perfect vicinity to the A, B, X, Y buttons, but the right analog stick comes in the way. Let me show you what I mean:
 
-![Analog gets in the way](img/post-images/2010-01-22-xbox-360-controller-for-windows/oops.jpg)
+![Analog gets in the way](/img/post-images/2010-01-22-xbox-360-controller-for-windows/oops.jpg)
 
 It might not look like much in the picture, but during gameplay, it's a bit annoying. There's another thing I didn't see coming, and it has to do with the left analog stick. Remember the Saitek Cyborg Rumble Gamepad which had a switchable analog/D-pad module? I thought it was just a fancy feature, but now I find it rather useful. Sure, playing many games feels absolutely great with the analog stick, but I'm a gamepad kinda guy, I play _most_ of the games with a gamepad when I can whether the game supports it or not (courtesy, Xpadder). I also happen to be a fan of old school RPGs and the analog seriously undermines gameplay. Even with customized deadzones, it just doesn't feel right. I would use the D-pad, if it were a little more comfortable, but Xbox games use it as an accessory rather than for real directional control, and it's only one large chunk of plastic. Moving it around doesn't feel comfortable. In this aspect, my old gamepad takes the cake. Since it's a PS2 design, it has the D-pad for main directional control and it has 4 separate buttons for each direction, which I really miss with the new gamepad. Finally, I really dislike the fact that the Guide button does nothing useful. In the Saitek gamepad, it's used to switch between "normal" and "FPS" configurations, which is pretty slick. I wanted something like that, but alas, it's not possible without the XBCD drivers I mentioned earlier.
 
@@ -37,15 +37,15 @@ Final verdict: despite the problems, I'm thoroughly enjoying it! For instance, p
 
 And now, behold! Some pics for thine eyes!
 
-![Bad lighting pic](img/post-images/2010-01-22-xbox-360-controller-for-windows/pic1.jpg)
+![Bad lighting pic](/img/post-images/2010-01-22-xbox-360-controller-for-windows/pic1.jpg)
 
 The 2.5 mm headset jack. Meant for a Microsoft headset specifically made for the Xbox 360, but it'll detect pretty much anything as a USB device:
-![2.5mm headphone jack](img/post-images/2010-01-22-xbox-360-controller-for-windows/headphone_jack.jpg)
+![2.5mm headphone jack](/img/post-images/2010-01-22-xbox-360-controller-for-windows/headphone_jack.jpg)
 
 Fits pretty well in my hand:
-![Hand fit](img/post-images/2010-01-22-xbox-360-controller-for-windows/hand_fit.jpg)
+![Hand fit](/img/post-images/2010-01-22-xbox-360-controller-for-windows/hand_fit.jpg)
 
 And some pics I wish I'd taken under better lighting and focal settings:
-![Bad lighting pic](img/post-images/2010-01-22-xbox-360-controller-for-windows/low_light.jpg)
+![Bad lighting pic](/img/post-images/2010-01-22-xbox-360-controller-for-windows/low_light.jpg)
 
 That's is for today people, take care.

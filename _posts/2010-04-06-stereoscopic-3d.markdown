@@ -28,29 +28,29 @@ So basically...
 
 An example of a 1-dimensional figure would be a straight line. All measurements are limited to only one constraint: length.
 
-![](img/post-images/2010-04-06-stereoscopic-3d/1D.png)
+![](/img/post-images/2010-04-06-stereoscopic-3d/1D.png)
 The only measurement is the length. Even a dot can be a 1D image (though, a dot is defined as a figure with zero dimensions... math is funny, eh?)
 
 A square, a triangle or anything you can draw on a paper is 2-dimensional, meaning those figures can be represented with the help of length and width.
 
-![](img/post-images/2010-04-06-stereoscopic-3d/2D.png)
+![](/img/post-images/2010-04-06-stereoscopic-3d/2D.png)
 Anything you can draw on a paper qualifies as a 2D image.
 
 Now, a cube, a cone, a pyramid, a pizza, the Taj Mahal, even **you**, are 3-dimensional. These objects can be represented in 3 dimensions namely length, width and depth.
 
-![](img/post-images/2010-04-06-stereoscopic-3d/3D.png)
+![](/img/post-images/2010-04-06-stereoscopic-3d/3D.png)
 All real objects are 3D.
 
 Most of what you see in a book, on the computer screen and in the movies is 2D. Sure, you can make out the depth of the objects shown on the screen, but that's because your mind simply concludes that there's depth, based on what it already knows, even though it doesn't _feel_ the depth.
 
-![](img/post-images/2010-04-06-stereoscopic-3d/Pseudo-3D.png)
+![](/img/post-images/2010-04-06-stereoscopic-3d/Pseudo-3D.png)
 You can tell that the cylinder is behind the cube even though you can't "feel" it.
 
 ## What is depth?
 
 How does your mind perceive "depth"? Well, it's simple. When you view something with both your eyes, what do you see? You see just one picture, or that's what you think. In reality, you see **two different pictures**, one with each eye. Try it out, look at an object by closing your eyes alternately. You'll realize that you're seeing the object from two _slightly_ different angles. This, ladies and gentlemen, is the key to 3D. When your eyes send their signals to the brain, it merges them together and calculates the depth in the image.
 
-![](img/post-images/2010-04-06-stereoscopic-3d/3DPerception.png)
+![](/img/post-images/2010-04-06-stereoscopic-3d/3DPerception.png)
 This is how your mind sees two images as one, perceiving depth. Observe the slight variation in how each eye sees the image.
 
 Now we know that the brain processes two separate images into one to get the sense of depth. How is this knowledge used to replicate depth through 2D media (computer screen for example)? Let's explore that.
@@ -62,30 +62,30 @@ We have one main point to take away from the previous explanation: depth can onl
 To simulate the sense of depth one has to find a way to view two different images at the same time through different eyes. Let's discuss the process with a 3D picture, because I actually made a few.
 
 So my aim is to make this scene 3D:
-![](img/post-images/2010-04-06-stereoscopic-3d/Target.jpg)
+![](/img/post-images/2010-04-06-stereoscopic-3d/Target.jpg)
 
 I capture two photographs from slightly different angles. Each picture is how each of my eye sees it separately:
-![](img/post-images/2010-04-06-stereoscopic-3d/TargetCompare.png)
+![](/img/post-images/2010-04-06-stereoscopic-3d/TargetCompare.png)
 The target scene shot from two different angles. These two pictures represent the target as seen by the right and left eyes.
 
 Now I superimpose (combine) them:
-![](img/post-images/2010-04-06-stereoscopic-3d/TargetCombined.png)
+![](/img/post-images/2010-04-06-stereoscopic-3d/TargetCombined.png)
 Both images super-imposed.
 
 But when I look at this picture, I can see both the views with both the eyes. How do I make it so that one image reaches one eye and the other image reaches the other eye separately? The answer is that I use some form of filtering.
 
 One simple thing I can do is, I use colour filtering. It means that I will colourize each picture with a different colour like this:
 
-![](img/post-images/2010-04-06-stereoscopic-3d/TargetColourCompare-1.png)
+![](/img/post-images/2010-04-06-stereoscopic-3d/TargetColourCompare-1.png)
 Both images are colourized.
 
 Now I'll superimpose them again:
 
-![](img/post-images/2010-04-06-stereoscopic-3d/3D_Result.jpg)
+![](/img/post-images/2010-04-06-stereoscopic-3d/3D_Result.jpg)
 I superimposed the two coloured images, this is the result.
 
 OK, now the pic is ready. How do I see the pic? with these (or similar):
-[](img/post-images/2010-04-06-stereoscopic-3d/upimg5-Plastic-3D-Glasses_50915.jpg)
+[](/img/post-images/2010-04-06-stereoscopic-3d/upimg5-Plastic-3D-Glasses_50915.jpg)
 
 Notice the colours. The left frame (from our point of view) has a red filter and the right frame has a cyan filter (have you noticed that they're contrast colours?). Now when I look at the pic with these glasses on, my left eye will only see the red-colourized part of the pic and my right eye will only see the cyan-colourized part; mission accomplished! I get to enjoy the depth in the picture!
 

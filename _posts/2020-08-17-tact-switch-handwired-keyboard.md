@@ -16,7 +16,7 @@ tags:
 
 The other day, I was browsing r/mechanicalkeyboards and saw [this](https://www.reddit.com/r/MechanicalKeyboards/comments/i96vyw/aaand_done/):
 
-![Photo by u/MiiNK1Y](img/post-images/2020-08-17-tact-switch-keyboard-build-log-part-1/pockettype.jpg "Photo by u/MiiNK1Y")
+![Photo by u/MiiNK1Y](/img/post-images/2020-08-17-tact-switch-keyboard-build-log-part-1/pockettype.jpg "Photo by u/MiiNK1Y")
 
 It was a tiny ortholinear keyboard kit using tactile switches as buttons, sold on [mechkeys.co.uk](https://mechboards.co.uk/). Being a custom keyboard fanatic (long story), I was immediately intrigued. My immediate instinct was to buy the kit, but I already have so many keyboards in my collection, and I don't want to waste my hard-earned cash feeding this hobby that I cultivated into an unholy amalgam of hoarding and obsession. Besides, I think I am out-growing building pre-made kits and am looking to venture into more DIY projects. Figuring that tact switches are pretty cheap and that I had the rest of the components stocked up already, I thought for a minute about how I could actually use a super tiny keyboard. Just a few days before, I got a shipping notification for an item I ordered long ago (purchased in a group buy): the nice!nano microcontroller board with Bluetooth built-in. Then it clicked: I could make a wireless keyboard for use with my nVidia Shield in a hybrid form-factor which facilitated typing, as well as using it as a remote. So it was decided. I would build my first hand-wired keyboard which I could use while watching TV, and type using thumbs by holding it with both hands.
 
@@ -26,7 +26,7 @@ The PocketType uses small switches (I couldn't find the exact model or dimension
 
 Next, I took a pen, paper and a ruler to draw some layouts to scale. This gave me a better idea of how well I can use those switch sizes. I concluded that these switches are a just tad too large for typing with thumbs, but I will make do. With the idea that I'd be holding this thing with both hands and using the thumbs to type, this is what I came up with:
 
-![Switch footprint drawn to scale, layout design](img/post-images/2020-08-17-tact-switch-keyboard-build-log-part-1/design-sketch.jpg "Switch footprint drawn to scale, and layout design")
+![Switch footprint drawn to scale, layout design](/img/post-images/2020-08-17-tact-switch-keyboard-build-log-part-1/design-sketch.jpg "Switch footprint drawn to scale, and layout design")
 
 - 3x6 grid for each hand for alphabets and modifiers
 - OLED screen in the middle to display information about battery, future features, etc.
@@ -40,12 +40,12 @@ Next, I took a pen, paper and a ruler to draw some layouts to scale. This gave m
 
 I wanted to get a feel of the finished product in my hand, so I fished around in my storage for large cardboard boxes that I can fold. Luckily, I actually found a box I got when I ordered a replacement screen for my Nexus 5 way back on 2017, which fits pretty perfectly in my hand (if a little too thick). So I wrapped a paper around it, and tried out the button positions from the diagram above, and found myself satisfied. This is going to be the keyboard's body.
 
-![Switches and caps](img/post-images/2020-08-17-tact-switch-keyboard-build-log-part-1/switch-candy.jpg "Switches and caps")
-![What it might look like](img/post-images/2020-08-17-tact-switch-keyboard-build-log-part-1/layout.jpg "What it might look like")
-![Front grip](img/post-images/2020-08-17-tact-switch-keyboard-build-log-part-1/box-front.jpg "Front grip")
-![Back grip](img/post-images/2020-08-17-tact-switch-keyboard-build-log-part-1/box-back.jpg "Back grip")
-![Top grip](img/post-images/2020-08-17-tact-switch-keyboard-build-log-part-1/box-top.jpg "Top grip")
-![Usage example](img/post-images/2020-08-17-tact-switch-keyboard-build-log-part-1/usage.gif "Usage example")
+![Switches and caps](/img/post-images/2020-08-17-tact-switch-keyboard-build-log-part-1/switch-candy.jpg "Switches and caps")
+![What it might look like](/img/post-images/2020-08-17-tact-switch-keyboard-build-log-part-1/layout.jpg "What it might look like")
+![Front grip](/img/post-images/2020-08-17-tact-switch-keyboard-build-log-part-1/box-front.jpg "Front grip")
+![Back grip](/img/post-images/2020-08-17-tact-switch-keyboard-build-log-part-1/box-back.jpg "Back grip")
+![Top grip](/img/post-images/2020-08-17-tact-switch-keyboard-build-log-part-1/box-top.jpg "Top grip")
+![Usage example](/img/post-images/2020-08-17-tact-switch-keyboard-build-log-part-1/usage.gif "Usage example")
 
 ## Next steps
 

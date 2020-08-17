@@ -25,7 +25,7 @@ A Heads up: IrfanView looks old-school. It doesn’t conform too well to the lat
 
 IrfanView is a very capable image viewer if you’re looking for a no-nonsense experience. It supports everything you would expect in a good image viewer, like browsing through folders, zooming in and out and viewing slideshows. But in addition to that, it also supports [a lot of file formats](http://www.irfanview.com/main_formats.htm "Supported file formats in IrfanView") for viewing and saving. Animated GIFs are supported too, and my most favourite: PSD files! You can’t edit PSD files but you can view them just fine.
 
-![Viewing images](img/post-images/2013-06-26-a-tribute-to-irfanview/IView_Viewer.jpg)
+![Viewing images](/img/post-images/2013-06-26-a-tribute-to-irfanview/IView_Viewer.jpg)
 
 ### As an Editor
 
@@ -45,13 +45,13 @@ Let’s be clear on one thing: IrfanView isn’t Photoshop. It doesn’t do laye
   * Save to many output formats and control their settings
   * And God bless [Irfan Skiljan](http://www.irfanview.com/main_about.htm "About Irfan Skiljan, the creator of IrfanView"), Batch Conversion with a bunch of options!
 
-![Built-in effects](img/post-images/2013-06-26-a-tribute-to-irfanview/IView_Effects.jpg)
+![Built-in effects](/img/post-images/2013-06-26-a-tribute-to-irfanview/IView_Effects.jpg)
 
 Those are just the features that I use and like. It’s also capable of some other crazy stuff like creating standalone slideshows, making screensavers from those slideshows with an option of attaching mp3 files, extract icons from EXEs and DLLs, and much more.
 
 It also comes with a Thumbnails application which is used to browse the supported file formats as thumbnails (I never use it though).
 
-![The Thumbnails application](img/post-images/2013-06-26-a-tribute-to-irfanview/IView_Thumbnails.jpg)
+![The Thumbnails application](/img/post-images/2013-06-26-a-tribute-to-irfanview/IView_Thumbnails.jpg)
 
 ### A few tips
 
