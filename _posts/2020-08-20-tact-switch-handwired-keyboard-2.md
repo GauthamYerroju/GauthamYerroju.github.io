@@ -21,19 +21,19 @@ This is a continuation of my attempt to build a hand-wired mini keyboard. I disc
 __What is it:__
 
 - A small keyboard that can be held like a controller, and typed with thumbs
-- For use as a media center remote: wireless (bluetooth), and has buttons on the side (to be used as a remote)
+- For use as a media center remote: wireless (Bluetooth), and has buttons on the side (to be used as a remote)
 
 __How to make it:__
 
 - Use a handy cardboard box as the housing (17.5mm x 9.2mm x 3.2mm)
 - Use 12x12mm tact switches with caps
-- Handwire the switches to a [nice!nano microcontroller](https://nicekeyboards.com/products/nice-nano-v1-0)
+- Hand-wire the switches to a [nice!nano microcontroller](https://nicekeyboards.com/products/nice-nano-v1-0)
 
 ## Finding a switch plate
 
 Having found my cardboard box, I ran into another problem. The switch with the cap attached is too high, so if I attached the pins to the outside of the box, the switches would bed raised more than a centimeter from the box's surface. That means I need to attach the switches to another surface which is recessed into the actual box. In other words, I needed, what's called in the biz, a switch plate.
 
-I found another random cardboard, took an Xacto knife to it to make holes for the pins on the switches. That seemed to work well enough, but with the switches as close to each other as possible, I feared that the cardboard might start to flex after a few days of usage. Looking around my room for an altenative, I found an empty box of chocolates. Bingo! I used the knife and a ruler, and made some markings:
+I found another random cardboard, took an Xacto knife to it to make holes for the pins on the switches. That seemed to work well enough, but with the switches as close to each other as possible, I feared that the cardboard might start to flex after a few days of usage. Looking around my room for an alternative, I found an empty box of chocolates. Bingo! I used the knife and a ruler, and made some markings:
 
 ![Plastic box lid marked with a knife](/img/post-images/2020-08-20-tact-switch-keyboard-build-log-part-2/marked_plate.jpg "Plastic box lid marked with a knife")
 
