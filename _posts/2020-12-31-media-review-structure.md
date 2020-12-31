@@ -1,7 +1,7 @@
 ---
 date: '2020-12-31 06:54 -0800'
 last_modified_at: '2020-12-31 06:54 -0800'
-published: false
+published: true
 title: Anime Reviews
 tags:
   - Anime Review
