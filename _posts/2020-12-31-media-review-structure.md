@@ -2,11 +2,11 @@
 date: '2020-12-31 06:54 -0800'
 last_modified_at: '2020-12-31 06:54 -0800'
 published: true
-title: Anime Reviews
+title: Anime TLDRs
 tags:
   - Anime Review
 ---
-I want to record my thoughts and opinions on some recent Anime I watched. On some thought, I'e decided I want to do this for everything I'm going to watch going forward and looking backward.
+I want to record my thoughts and opinions on some recent Anime I watched. I've decided I want to do this for everything I'm going to watch going forward and looking backward.
 
 ## Aspects
 
