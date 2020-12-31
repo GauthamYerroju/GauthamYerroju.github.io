@@ -2,33 +2,32 @@
 date: '2020-12-31 06:54 -0800'
 last_modified_at: '2020-12-31 06:54 -0800'
 published: false
-title: Media Review Structure
+title: Anime Reviews
 tags:
   - Anime Review
 ---
-I want to record my thoughts and opinions on anime/TV Shows/movies I've watched, and this is a checklist of what I'll be describing in each post.
+I want to record my thoughts and opinions on some recent Anime I watched. On some thought, I'e decided I want to do this for everything I'm going to watch going forward and looking backward.
 
 ## Aspects
 
-Describe it using these:
-- Genres/World setting
-- Themes/Plot
+After some thought, I came up with this checklist of the things I care about when I'm out to pick what to watch next, so I thought I'd use it as my review structure.
+
+- Genres/World setting (historic/sci-fi/dystopian/slice-of-life)
+- Themes/Plot (philosophy/personal ethics/social ethics/politics/adventure/sports)
 - Tone (quirky/funny/dramatic/tragic/sarcastic)
 - Pacing (per-episode pacing, overall pacing)
-- Aesthetic/Animation/Effects quality
+- Aesthetic/Animation/Effects quality (art style/keyframe count)
 - Soundtrack consistency (jarring and inconsistent/forgettable but serviceable/good/exellent)
 - Intelligent? (Is the plot tight and logical or is it swiss cheese?/Are smart characters smart?)
-- Dramatic? (Unnecessarily dramatic/occasionally dramatic/rarely dramatic)
+- Dramatic? (unnecessarily dramatic/occasionally dramatic/rarely dramatic)
 - Trope check:
-  - Fan service?
-  - Power of friendship?
-  - Using guilt and self-pity in excess to fabricate emotional depth?
+  - Fan service? (eg. pick 99/100 anime)
+  - Power of friendship? (eg. Naruto and too many others)
+  - Using guilt and self-pity in excess to fabricate emotional depth? (eg. any of the CBS DC TV shows)
   - And maybe a slew of other things I notice.
 - TLDR
 
-## Thoughts on some recent Anime I watched
-
-These are recent anie fresh in my memory.
+These are recent anime fresh in my memory.
 
 ### Magi: The Labyrinth of Magic
 
@@ -43,6 +42,5 @@ TLDR: Fucking masterpiece. Intelligent _and_ dramatic (rare!), excellent animati
 TLDR: Really good. Very intelligent, rarely dramatic but well-done (subtle), passable soundtrack, good word-building. Per-episode pacing is great (starts off as self-contained episodes but evolves into a continuous plot), but overall pacing is too fast for the word-building to really sink in, which is a shame because it's actually very good.
 
 I'll fill these out more in the future and tweak the assessment criteria as I go along. I can probably use many of the same criteria for story-rich games too.
-
 
 Peace!
