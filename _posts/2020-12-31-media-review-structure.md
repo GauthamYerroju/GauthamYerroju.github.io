@@ -3,6 +3,8 @@ date: '2020-12-31 06:54 -0800'
 last_modified_at: '2020-12-31 06:54 -0800'
 published: false
 title: Media Review Structure
+tags:
+  - Anime Review
 ---
 I want to record my thoughts and opinions on anime/TV Shows/movies I've watched, and this is a checklist of what I'll be describing in each post.
 
@@ -24,13 +26,13 @@ Describe it using these:
   - And maybe a slew of other things I notice.
 - TLDR
 
-## Backlog
+## Thoughts on some recent Anime I watched
 
-These are fresh in memory:
+These are recent anie fresh in my memory.
 
-### Magi
+### Magi: The Labyrinth of Magic
 
-TLDR: Surprisingly good. Animation seems bad in thebeginning but has great themes, decent world building and interesting chracters.
+TLDR: Surprisingly good. Animation seems bad in the beginning but it's really just the art style. Has great themes, good world building and interesting chracters. Serviceable sound track, intelligent execution of a good theme, but keeps enough of the tropes to make it familiar to the mainstream anime consumer without over-doing them.
 
 ### Attack on Titan
 
@@ -42,4 +44,5 @@ TLDR: Really good. Very intelligent, rarely dramatic but well-done (subtle), pas
 
 I'll fill these out more in the future and tweak the assessment criteria as I go along. I can probably use many of the same criteria for story-rich games too.
 
-Thanks for reading.
+
+Peace!
