@@ -1,0 +1,3 @@
+[submodule "projects/parametric-tuckbox-generator"]
+	path = projects/parametric-tuckbox-generator
+	url = https://github.com/GauthamYerroju/parametric-tuckbox-generator.git
